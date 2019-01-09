@@ -50,10 +50,10 @@ class Handler extends ExceptionHandler
             switch($exception->getStatusCode())
             {
                 case '404':
-                    return redirect()->guest('pages.home');
+                    return redirect('/');
                     break;
                 case '500':
-                    return redirect()->guest('pages.home');
+                    return redirect('/');
                     break;
                 default:
                     return $this->renderHttpException($exception);
