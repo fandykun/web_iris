@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+}
+
+.post-content{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    text-align: center;
+}
