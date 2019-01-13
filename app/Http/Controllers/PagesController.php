@@ -6,28 +6,34 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function home()
+    public function index()
     {
+
         return view('pages.home');
     }
     public function team()
     {
-        return view('pages.team');
+        $title = 'Team';
+        return view('pages.team')->with('title', $title);
     }
     public function gallery()
     {
-        return view('pages.gallery');
+        $title = 'Gallery';
+        return view('pages.gallery')->with('title', $title);
     }
     public function achievement()
     {
-        return view('pages.achievement');
+        $title = 'Achievement';
+        return view('pages.achievement')->with('title', $title);
     }
     public function qualification()
     {
-        return view('pages.qualification');
+        $title = 'Qualification';
+        return view('pages.qualification')->with('title', $title);
     }
     public function about()
     {
-        return view('pages.about');
+        $title = 'About Us';
+        return view('pages.about')->with('title', $title);
     }
 }
