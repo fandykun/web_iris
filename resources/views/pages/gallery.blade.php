@@ -8,7 +8,12 @@
 @endsection
 
 @section('content')
-<div class="container">
-    
-</div>
+<section id="qualification">
+    <div class="container">
+        <header class="section-header">
+            <h3>GALLERY</h3>
+            <p>Coming Soon</p>
+        </header>
+    </div>
+</section>
 @endsection

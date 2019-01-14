@@ -818,38 +818,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #18d26e;
 }
 
-/* Call To Action Section
---------------------------------*/
-
-#skills {
-  padding: 60px 0;
-}
-
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-}
-
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: .9s;
-}
-
 /* Facts Section
 --------------------------------*/
 
@@ -1049,43 +1017,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-/* Clients Section
---------------------------------*/
-
-#clients {
-  padding: 60px 0;
-}
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #18d26e;
-}
-
 /* Testimonials Section
 --------------------------------*/
 
@@ -1245,9 +1176,89 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
-/* Qualification Section */
+/* Qualification Section
+--------------------------------*/
 
+#qualification {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
 
+#qualification .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#qualification .title a {
+  color: #111;
+}
+
+#qualification .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* Achievement Section
+--------------------------------*/
+
+#achievement {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#achievement .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#achievement .title a {
+  color: #111;
+}
+
+#achievement .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* Gallery Section
+--------------------------------*/
+
+#gallery {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#gallery .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#gallery .title a {
+  color: #111;
+}
+
+#gallery .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: justify;
+}
 
 /* Contact Section
 --------------------------------*/

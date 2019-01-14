@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 footer-info">
           <h3>IRIS-ITS</h3>
-          <p>IRIS is one of the Sepuluh Nopember Institute of Technology Robotic Team build in 2016.
+          <p>IRIS is one of the Sepuluh Nopember Institute of Technology Robotic Team build in 2016.<br>
             We work on Intelligent Wheeled Robot Development Research, which has ability to play football automatically.</p>
         </div>
         <div class="col-lg-6 col-md-6 footer-links">
