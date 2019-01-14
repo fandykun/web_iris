@@ -776,13 +776,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /* Call To Action Section
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background4.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1244,6 +1245,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/* Qualification Section */
+
+
+
 /* Contact Section
 --------------------------------*/
 
@@ -1379,10 +1384,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 23px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #eee;
+  text-align: justify;
 }
 
 #footer .footer-top .social-links a {
