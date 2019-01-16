@@ -16,7 +16,4 @@
         </header>
     </div>
 </section>
-<?php
-phpinfo();
-?>
 @endsection
