@@ -1,7 +1,4 @@
-@extends('layouts.app')
-@section('navbar')
-    @include('layouts.navbar2')
-@endsection
+@extends('layouts.app2')
 
 @section('title')
     <title>{{$title}} - {{ config('app.name') }}</title>

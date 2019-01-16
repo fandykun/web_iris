@@ -1,7 +1,4 @@
 @extends('layouts.app')
-@section('navbar')
-    @include('layouts.navbar')
-@endsection
 
 @section('title')
     <title>{{ config('app.name') }}</title>

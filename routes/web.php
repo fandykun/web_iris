@@ -36,3 +36,6 @@ Route::get('/about', 'PagesController@about');
 
 // Route::resource('gallery', 'GalleryController');
 // Route::resource('team', 'TeamController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

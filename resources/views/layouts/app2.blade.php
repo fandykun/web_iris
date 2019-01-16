@@ -8,7 +8,7 @@
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>IRIS ITS</title>
+    @yield('title')
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -25,6 +25,15 @@
     
 </head>
 <body>
+    <style>
+        #header{
+        background: rgb(0, 0, 0);
+        padding: 20px 0;
+        height: 72px;
+        position: relative;
+        transition: all 0.5s;
+        }
+    </style>
     @include('layouts.navbar')
     @yield('content')
     @include('layouts.footer')
