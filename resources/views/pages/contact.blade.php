@@ -8,7 +8,7 @@
 <section id="about">
         <div class="container">
             <header class="section-header">
-                <h3>ABOUT</h3>
+                <h3>CONTACT</h3>
                 <p>Coming Soon</p>
             </header>
         </div>

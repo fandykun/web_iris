@@ -14,10 +14,9 @@
         <div class="col-lg-3 col-md-6 footer-contact">
           <h4>Contact Us</h4>
           <p>
-            UKM Robotika ITS<br>
-            Sukolilo, Surabaya City 60117<br>
-            East Java, Indonesia <br>
-            <strong>Phone:</strong> +6281259606366<br>
+              Laboratorium Workshop, Lantai II, Pusat Robotika ITS<br>
+              Jl. Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111<br> 
+            <strong>Phone:</strong> +6285746658456<br>
             <strong>Email:</strong> iris.krsbi@gmail.com<br>
           </p>
 

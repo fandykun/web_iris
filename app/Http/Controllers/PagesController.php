@@ -31,9 +31,9 @@ class PagesController extends Controller
         $title = 'Qualification';
         return view('pages.qualification')->with('title', $title);
     }
-    public function about()
+    public function contact()
     {
-        $title = 'About Us';
-        return view('pages.about')->with('title', $title);
+        $title = 'Contact';
+        return view('pages.contact')->with('title', $title);
     }
 }
