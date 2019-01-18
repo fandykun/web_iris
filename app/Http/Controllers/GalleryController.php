@@ -16,7 +16,8 @@ class GalleryController extends Controller
     public function index()
     {
         $galleries = Gallery::all();
-        return view('gallery.index')->with('galleries', $galleries);
+        $title = 'Gallery';
+        return view('pages.gallery')->with(['title' => $title, 'gallery' => $galleries]);
     }
 
     /**
@@ -26,7 +27,8 @@ class GalleryController extends Controller
      */
     public function create()
     {
-        return view('gallery.create');
+        $title = 'Create';
+        return view('gallery.create')->with('title', $title);
     }
 
     /**
@@ -39,7 +41,6 @@ class GalleryController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'description' => 'required',
             'cover_image' => 'image|nullable|max:1999'
         ]);
         
@@ -61,7 +62,6 @@ class GalleryController extends Controller
 
         $gallery = new Gallery;
         $gallery->name = $request->input('name');
-        $gallery->description = $request->input('body');
         $gallery->cover_image = $fileNameToStore;
         $gallery->save();
 
@@ -107,7 +107,6 @@ class GalleryController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'description' => 'required'
         ]);
 
          // Handle File Upload
@@ -126,7 +125,6 @@ class GalleryController extends Controller
 
         $gallery = Gallery::findOrFail($id);
         $gallery->name = $request->input('name');
-        $gallery->description = $request->input('description');
         if($request->hasFile('cover_image')){
             $gallery->cover_image = $fileNameToStore;
         }

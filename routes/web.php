@@ -17,9 +17,7 @@ Auth::routes();
 Route::get('/', 'PagesController@index');
 Route::get('/team', 'PagesController@team');
 Route::get('/achievement', 'PagesController@achievement');
-Route::get('/gallery', 'PagesController@gallery');
 Route::get('/qualification', 'PagesController@qualification');
 Route::get('/contact', 'PagesController@contact');
-
-// Route::resource('gallery', 'GalleryController');
+Route::resource('gallery', 'GalleryController');
 // Route::resource('team', 'TeamController');
