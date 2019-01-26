@@ -15,13 +15,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/animate/animate.min.css" rel="stylesheet">
-    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="vendor/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="{{ URL::asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('vendor/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('vendor/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet" >
     
 </head>
 <body>
@@ -29,20 +27,13 @@
     @yield('content')
     @include('layouts.footer')
     <!-- Script -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/jquery/jquery-migrate.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/easing/easing.min.js"></script>
-    <script src="vendor/superfish/hoverIntent.js"></script>
-    <script src="vendor/superfish/superfish.min.js"></script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/waypoints/waypoints.min.js"></script>
-    <script src="vendor/counterup/counterup.min.js"></script>
-    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="vendor/lightbox/js/lightbox.min.js"></script>
-    <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{ URL::asset('vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/superfish/superfish.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/wow/wow.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/touchSwipe/jquery.touchSwipe.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/easing/easing.min.js') }}"></script>
+    <script src="{{ URL::asset('js/main.js') }}"></script>
 
 </body>
 </html>

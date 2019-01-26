@@ -19,9 +19,9 @@
     <link href="{{ URL::asset('vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('vendor/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('vendor/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('vendor/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('vendor/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet" >
+    @yield('css')
     
 </head>
 <body>
@@ -39,18 +39,12 @@
     @include('layouts.footer')
     <!-- Script -->
     <script src="{{ URL::asset('vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/jquery/jquery-migrate.min.js') }}"></script>
     <script src="{{ URL::asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/easing/easing.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/superfish/hoverIntent.js') }}"></script>
     <script src="{{ URL::asset('vendor/superfish/superfish.min.js') }}"></script>
     <script src="{{ URL::asset('vendor/wow/wow.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/counterup/counterup.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ URL::asset('vendor/lightbox/js/lightbox.min.js') }}"></script>
     <script src="{{ URL::asset('vendor/touchSwipe/jquery.touchSwipe.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/easing/easing.min.js') }}"></script>
+    <script src="{{ URL::asset('vendor/isotope/isotope.pkgd.min.js') }}"></script>
     <script src="{{ URL::asset('js/main.js') }}"></script>
 
 </body>
