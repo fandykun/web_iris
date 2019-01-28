@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Gallery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Auth;
 
 class GalleryController extends Controller
 {
@@ -17,7 +18,7 @@ class GalleryController extends Controller
     {
         $galleries = Gallery::all();
         $title = 'Gallery';
-        return view('pages.gallery')->with(['title' => $title, 'gallery' => $galleries]);
+        return view('pages.gallery')->with(['title' => $title, 'galleries' => $galleries]);
     }
 
     /**
@@ -28,6 +29,9 @@ class GalleryController extends Controller
     public function create()
     {
         $title = 'Create';
+        // if(!Auth::user()){
+        //     return redirect('/gallery');
+        // }
         return view('gallery.create')->with('title', $title);
     }
 
@@ -41,6 +45,7 @@ class GalleryController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
+            'year' => 'required',
             'cover_image' => 'image|nullable|max:1999'
         ]);
         
@@ -55,13 +60,14 @@ class GalleryController extends Controller
             // Filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             // Upload Image
-            $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
+            $path = $request->file('cover_image')->storeAs('public/gallery/cover_images', $fileNameToStore);
         } else {
             $fileNameToStore = 'noimage.jpg';
         }
 
         $gallery = new Gallery;
         $gallery->name = $request->input('name');
+        $gallery->year = $request->input('year');
         $gallery->cover_image = $fileNameToStore;
         $gallery->save();
 
@@ -77,7 +83,9 @@ class GalleryController extends Controller
     public function show($id)
     {
         $gallery = Gallery::findOrFail($id);
-        return view('gallery.show')->with('gallery', $gallery);
+        if(!Auth::user())
+            return redirect('gallery');
+        else return view('gallery.show')->with('gallery', $gallery);
     }
 
     /**
@@ -107,6 +115,7 @@ class GalleryController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
+            'year' => 'required',
         ]);
 
          // Handle File Upload
@@ -146,7 +155,7 @@ class GalleryController extends Controller
             return redirect('/gallery')->with('error', 'Unauthorized Page');
         }
         if($gallery->cover_image != 'noimage.jpg'){
-            Storage::delete('public/cover_images/'.$gallery->cover_image);
+            Storage::delete('public/gallery/cover_images/'.$gallery->cover_image);
         }
 
         $gallery->delete();

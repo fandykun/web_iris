@@ -10,5 +10,5 @@ class Gallery extends Model
         return $this->belongsTo('App\User');
     }
 
-    protected $fillable = ['name', 'cover_image'];
+    protected $fillable = ['name', 'year', 'cover_image'];
 }
