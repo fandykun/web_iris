@@ -35,23 +35,24 @@
         <div class="description wow bounceInUp" data-wow-duration="1.0s">
             <h3 class="title">Qualification Video</h3>
             <p>This video shows all the basic abilities of our robots.</p>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/kKfPtkb797g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/kKfPtkb797g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
         <div class="description wow bounceInUp" data-wow-duration="1.0s">
             <h3 class="title">Achievements</h3>
-            <strong>2017</strong>
+            <strong>KRI 2017</strong>
             <ul style="list-style: none;">
                 <li>Third Place Kontes Robot Indonesia (KRI) Regional IV</li>
                 <li>Best Design Kontes Robot Indonesia (KRI) Regional IV</li>
                 <li>Best Design Kontes Robot Indonesia (KRI) Nasional</li>
                 <li>Best Innovation Kontes Robot Indonesia (KRI) Nasional</li>
             </ul>
-            <strong>2018</strong>
+            <strong>KRI 2018</strong>
             <ul style="list-style: none;">
                 <li>First Place Kontes Robot Indonesia (KRI) Regional IV</li>
-                <li>Best Strategy Kontes Robot Indonesia (KRI) Regional IV Kontes Robot Indonesia (KRI) Nasional</li>
+                <li>Best Strategy Kontes Robot Indonesia (KRI) Regional IV</li>
             </ul>
             <strong>FIRA RoboWorld Cup 2018</strong>
             <ul style="list-style: none;">
@@ -66,7 +67,53 @@
             <p>The mechanical and electrical design and detailed software flowchart of IRIS team can be found on the following links.<br>
             <a href="{{asset('/storage/Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf')}}">Mechanical and Electrical Design with Software Flowchart</a></p>
         </div>
-        
+
+        <div class="description wow bounceInUp">
+            <h3 class="title">Misscellanous</h3>
+            <p>Declaration of mixed teams : <strong>NO</strong> <br>
+                Team requires 802.11b access point: <strong>NO</strong>
+            </p>
+        </div>
+
+        <div class="description wow bounceInUp">
+            <h3 class="title">List MAC Address</h3>
+            <table class="table table-responsive-md table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th><strong>PC Robot</strong></th>
+                        <th><strong>Username</strong></th>
+                        <th><strong>MAC Address</strong></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Robot 1</td>
+                    <td>iris</td>
+                    <td>9c:da:3e:cb:87:11</td>
+                </tr>
+                <tr>
+                    <td>Robot 2</td>
+                    <td>iris</td>
+                    <td>00:c2:c6:f1:8d:3f</td>
+                </tr>
+                <tr>
+                    <td>Robot 3</td>
+                    <td>iris</td>
+                    <td>00:c2:c6:f1:8c:04</td>
+                </tr>
+                <tr>
+                    <td>Robot 4</td>
+                    <td>iris</td>
+                    <td>00:c2:c6:fa:0e:9c</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Robot 5</td>
+                    <td>-</td>
+                    <td>Update soon</td>
+                </tr>
+            </table>
+
+        </div>
+
     </div>
 </section>
 @endsection

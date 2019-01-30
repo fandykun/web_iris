@@ -29,9 +29,9 @@ class GalleryController extends Controller
     public function create()
     {
         $title = 'Create';
-        // if(!Auth::user()){
-        //     return redirect('/gallery');
-        // }
+        if(!Auth::user()){
+            return redirect('/gallery');
+        }
         return view('gallery.create')->with('title', $title);
     }
 

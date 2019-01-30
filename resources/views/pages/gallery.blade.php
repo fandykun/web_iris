@@ -9,7 +9,12 @@
     <div class="container">
         @guest
         @else
-            <a href="/gallery/create" class="btn btn-warning my-3">Create Gallery</a>
+            <a href="{{asset('/gallery/create')}}" class="btn btn-warning my-3">Create Gallery</a>
+            {{-- <form action="/gallery/{{$gallery->id}}" method="POST">
+                @csrf
+                @method('DELETE')
+                <button class="btn btn-md btn-danger" type="submit">Delete Product</button>
+            </form> --}}
         @endguest
         <header class="section-header">
             <h3>GALLERY</h3>
@@ -17,11 +22,10 @@
 
         <div class="row gallery-container">
         @foreach($galleries as $gallery)
-            <div class="col-lg-4 col-md-6 gallery-item filter-app wow fadeInUp">
+            <div class="col-lg-3 col-md-6 gallery-item filter-app wow fadeInUp">
                 <div class="gallery-wrap">
                     <figure>
                         <img src="/storage/gallery/cover_images/{{$gallery->cover_image}}" class="img-fluid" alt="">
-                        <a href="/storage/gallery/cover_images/{{$gallery->cover_image}}" data-lightbox="gallery" data-title="{{$gallery->name}}" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                     </figure>
                     <div class="gallery-info">
                         <h4><a>{{$gallery->name}}</a></h4>

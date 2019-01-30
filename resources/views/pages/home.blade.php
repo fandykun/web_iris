@@ -42,12 +42,12 @@
             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.2s">
               <div class="icon"><i class="ion-code"></i></div>
               <h4 class="title"><a>Programming Division</a></h4>
-              <p class="description">This division is in charge of creating a program that run on the robot according to the wanted command.</p>
+              <p class="description">The division that giving the complex codes to make a life of robot.</p>
             </div>
             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.2s">
               <div class="icon"><i class="ion-ios-bolt"></i></div>
               <h4 class="title"><a>Electronic Division</a></h4>
-              <p class="description">This division performs its duties on the electronic part of the robot. They assemble electronic components that will support the robot working system.</p>
+              <p class="description">One of technical division that focus to design electrical system of the robot.</p>
             </div>
             <br><br>
             <div class="col-lg-2 col-md-6">
@@ -55,12 +55,12 @@
             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
               <div class="icon"><i class="ion-settings"></i></div>
               <h4 class="title"><a>Mechanics Division</a></h4>
-              <p class="description">This division is in charge of designing the robot, and also make sure the design built as good as expected.</p>
+              <p class="description">The division that build body shape and manufacture of robot.</p>
             </div>
             <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
               <div class="icon"><i class="ion-clipboard"></i></div>
               <h4 class="title"><a>Official Division</a></h4>
-              <p class="description">The division regulates all the records, correspondence, sponsorship, and so forth.</p>
+              <p class="description">Non technical division responsible to do all things about branding, sponsorship, administration and finance.</p>
             </div>
           </div>
     </div>

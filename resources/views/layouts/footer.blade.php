@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 footer-info">
           <h3>IRIS-ITS</h3>
-          <p>IRIS is one of the Sepuluh Nopember Institute of Technology Robotic Team build in 2016.<br>
-            We work on Intelligent Wheeled Robot Development Research, which has ability to play football automatically.</p>
+          <p>IRIS is Institut Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous soccer playing robots. IRIS ITS has competed in the soccer robotic league since 2017. The team consist of students of Institut Teknologi Sepuluh Nopember Surabaya.</p>
         </div>
         <div class="col-lg-6 col-md-6 footer-links">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.838995163011!2d112.79762184786317!3d-7.277432886364895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa11d96fdfe5%3A0x329c27ff3fca8170!2sUKM+Robotika+ITS!5e0!3m2!1sen!2sid!4v1484736564728" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
