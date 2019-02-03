@@ -69,7 +69,7 @@
         </div>
 
         <div class="description wow bounceInUp">
-            <h3 class="title">Misscellanous</h3>
+            <h3 class="title">Miscellaneous</h3>
             <p>Declaration of mixed teams : <strong>NO</strong> <br>
                 Team requires 802.11b access point: <strong>NO</strong>
             </p>
@@ -80,38 +80,61 @@
             <table class="table table-responsive-md table-hover">
                 <thead class="thead-dark">
                     <tr>
-                        <th><strong>PC Robot</strong></th>
-                        <th><strong>Username</strong></th>
-                        <th><strong>MAC Address</strong></th>
+                        <th class="col-2"><strong>PC Robot</strong></th>
+                        <th class="col-2"><strong>MAC Address (Wireless)</strong></th>
                     </tr>
                 </thead>
                 <tr>
                     <td>Robot 1</td>
-                    <td>iris</td>
                     <td>9c:da:3e:cb:87:11</td>
                 </tr>
                 <tr>
                     <td>Robot 2</td>
-                    <td>iris</td>
                     <td>00:c2:c6:f1:8d:3f</td>
                 </tr>
                 <tr>
                     <td>Robot 3</td>
-                    <td>iris</td>
                     <td>00:c2:c6:f1:8c:04</td>
                 </tr>
                 <tr>
                     <td>Robot 4</td>
-                    <td>iris</td>
                     <td>00:c2:c6:fa:0e:9c</td>
                 </tr>
-                <tr class="table-danger">
+                <tr>
                     <td>Robot 5</td>
-                    <td>-</td>
-                    <td>Update soon</td>
+                    <td>ac:ed:5c:f1:65:b2</td>
                 </tr>
             </table>
 
+            <table class="table table-responsive-md table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th class="col-2"><strong>Dev-Computer</strong></th>
+                        <th class="col-2"><strong>MAC Address (Wireless)</strong></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Basestation</td>
+                    <td>f4:8c:50:6f:b9:68</td>
+                </tr>
+                <tr>
+                    <td>Fandykun</td>
+                    <td>54:27:1e:b9:5c:dd</td>
+                </tr>
+                <tr>
+                    <td>Dzul</td>
+                    <td>94:db:c9:42:3c:56</td>
+                </tr>
+                <tr>
+                    <td>Dhiaul</td>
+                    <td>5c:93:a2:a6:b9:91</td>
+                </tr>
+                <tr>
+                    <td>Habib</td>
+                    <td>24:fd:52:46:1d:6a</td>
+                </tr>
+            </table>
+            
         </div>
 
     </div>
