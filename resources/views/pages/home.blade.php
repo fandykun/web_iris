@@ -2,54 +2,57 @@
 
 @section('content')
 
-  <!--================Hero Banner Section start =================-->
-  <section class="hero-banner">
-    <div class="hero-wrapper">
-      <div class="hero-left">
-        <h1 class="hero-title">Foods the <br> most precious things</h1>
-        <div class="d-sm-flex flex-wrap">
-          <a class="button button-hero button-shadow" href="#">Book Now</a>
-          <a class="hero-banner__video" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Watch Video</a>          
-        </div>
-        <ul class="hero-info d-none d-lg-block">
-          <li>
-            <img src="{{ asset('sneaky/img/banner/fas-service-icon.png') }}" alt="">
-            <h4>Fast Service</h4>
-          </li>
-          <li>
-            <img src="{{ asset('sneaky/img/banner/fresh-food-icon.png') }}" alt="">
-            <h4>Fresh Food</h4>
-          </li>
-          <li>
-            <img src="{{ asset('sneaky/img/banner/support-icon.png') }}" alt="">
-            <h4>24/7 Support</h4>
-          </li>
-        </ul>
+<!--================Hero Banner Section start =================-->
+<section class="hero-banner">
+  <div class="hero-wrapper">
+    <div class="hero-left">
+      <h1 class="hero-title">Robotics <br> with Intelligent System</h1>
+      <div class="d-sm-flex flex-wrap">
+        <a class="button button-hero button-shadow" href="#">Get Started</a>
+        <a class="hero-banner__video" href="https://www.youtube.com/watch?v=kKfPtkb797g">Watch Video</a>          
       </div>
-      <div class="hero-right">
-        <div class="owl-carousel owl-theme hero-carousel">
-          <div class="hero-carousel-item">
-            <img class="img-fluid" src="{{ asset('sneaky/img/banner/hero-banner1.png') }}" alt="">
-          </div>
-          <div class="hero-carousel-item">
-            <img class="img-fluid" src="{{ asset('sneaky/img/banner/hero-banner1.png') }}" alt="">
-          </div>
-          <div class="hero-carousel-item">
-            <img class="img-fluid" src="{{ asset('sneaky/img/banner/hero-banner1.png') }}" alt="">
-          </div>
-          <div class="hero-carousel-item">
-            <img class="img-fluid" src="{{ asset('sneaky/img/banner/hero-banner1.png') }}" alt="">
-          </div>
-        </div>
-      </div>
-      <ul class="social-icons d-none d-lg-block">
-        <li><a href="#"><i class="ti-facebook"></i></a></li>
-        <li><a href="#"><i class="ti-twitter"></i></a></li>
-        <li><a href="#"><i class="ti-instagram"></i></a></li>
+      <ul class="hero-info d-none d-lg-block">
+        <li>
+          <i class="fa fa-users"></i>
+          <h4>16 Members</h4>
+        </li>
+        <li>
+            <i class="fa fa-android"></i>
+          <h4>5 Robots</h4>
+        </li>
+        <li>
+          <i class="fa fa-trophy"></i>
+          <h4>15 Achievements</h4>
+        </li>
       </ul>
     </div>
-  </section>
-  <!--================Hero Banner Section end =================-->
+    <div class="hero-right hero-right-home">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-1.jpg') }}" alt="">
+        </div>
+        <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
+        </div>
+        <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-3.jpg') }}" alt="">
+        </div>
+        <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-4.jpg') }}" alt="">
+        </div>
+        <div class="hero-carousel-item">
+          <img class="img-fluid" src="{{ asset('img/iris/banner-5.jpg') }}" alt="">
+        </div>
+      </div>
+    </div>
+    <ul class="social-icons d-none d-lg-block">
+      <li><a href="#"><i class="ti-facebook"></i></a></li>
+      <li><a href="#"><i class="ti-twitter"></i></a></li>
+      <li><a href="#"><i class="ti-instagram"></i></a></li>
+    </ul>
+  </div>
+</section>
+<!--================Hero Banner Section end =================-->
 
   <!--================About Section start =================-->
   <section class="about section-margin pb-xl-70">
@@ -58,18 +61,19 @@
         <div class="col-md-6 col-xl-6 mb-5 mb-md-0 pb-5 pb-md-0">
           <div class="img-styleBox">
             <div class="styleBox-border">
-              <img class="styleBox-img1 img-fluid" src="{{ asset('sneaky/img/home/about-img1.png') }}" alt="">
+              <img class="styleBox-img1 img-fluid" src="{{ asset('img/iris/about-1.jpg') }}" alt="">
             </div>
-            <img class="styleBox-img2 img-fluid" src="{{ asset('sneaky/img/home/about-img2.png') }}" alt="">
+            {{-- <img class="styleBox-img2 img-fluid" src="{{ asset('img/iris/about-2.png') }}" alt=""> --}}
           </div>
         </div>
         <div class="col-md-6 pl-md-5 pl-xl-0 offset-xl-1 col-xl-5">
           <div class="section-intro mb-lg-4">
             <h4 class="intro-title">About Us</h4>
-            <h2>We speak the good food language</h2>
+            <h2>ini diisi apa ya</h2>
           </div>
-          <p>Living first us creepeth she'd earth second be sixth hath likeness greater image said sixth was without male place fowl evening an grass form living fish and rule lesser for blessed can't saw third one signs moving stars light divided was two you him appear midst cattle for they are gathering.</p>
-          <a class="button button-shadow mt-2 mt-lg-4" href="#">Learn More</a>
+          <p style="text-align: justify;">IRIS is Institut Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous soccer playing robots. IRIS ITS has competed in the soccer robotic league since 2017. The team consist of students of Institut Teknologi Sepuluh Nopember Surabaya. 
+              <br>To build a great team and a robot that is capable of playing football, the team is divided into 4 divisions which are mechanical division, electrical division, programming division, and official division.</p>
+          <a class="button button-shadow mt-2 mt-lg-4" href="{{ '/team' }}">Learn More</a>
         </div>
       </div>
     </div>
@@ -80,8 +84,8 @@
   <section class="section-margin mb-lg-100">
     <div class="container">
       <div class="section-intro mb-75px">
-        <h4 class="intro-title">Featured Food</h4>
-        <h2>Fresh taste and great price</h2>
+        <h4 class="intro-title">Gallery</h4>
+        <h2>Enjoy every moment with Us!</h2>
       </div>
 
 
@@ -168,7 +172,7 @@
   <!--================Featured Section End =================-->
 
   <!--================Offer Section Start =================-->
-  <section class="bg-lightGray section-padding">
+  <!-- <section class="bg-lightGray section-padding">
     <div class="container">
       <div class="row no-gutters">
         <div class="col-sm">
@@ -183,7 +187,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--================Offer Section End =================-->
 
 
@@ -191,8 +195,8 @@
   <section class="section-margin">
     <div class="container">
       <div class="section-intro mb-75px">
-        <h4 class="intro-title">Food Menu</h4>
-        <h2>Delicious food</h2>
+        <h4 class="intro-title">Our Division</h4>
+        <h2>Our team consists of 4 divisions</h2>
       </div>
       <div class="row">
         <div class="col-lg-6">
@@ -200,10 +204,9 @@
             <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
+                <h4>Electronic Division</h4>
               </div>
-              <p>Whales and darkness moving form cattle</p>
+              <p>One of technical division that focus to design electrical system of the robot.</p>
             </div>
           </div>
         </div>
@@ -213,10 +216,9 @@
             <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
+                <h4>Mechanics Division</h4>
               </div>
-              <p>Whales and darkness moving form cattle</p>
+              <p>The division that build body shape and manufacture of robot.</p>
             </div>
           </div>
         </div>
@@ -226,10 +228,9 @@
             <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
+                <h4>Programming Division</h4>
               </div>
-              <p>Whales and darkness moving form cattle</p>
+              <p>The division that giving the complex codes to make a life of robot.</p>
             </div>
           </div>
         </div>
@@ -239,62 +240,9 @@
             <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
+                <h4>Official Division</h4>
               </div>
-              <p>Whales and darkness moving form cattle</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
-            <div class="media-body">
-              <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
-              </div>
-              <p>Whales and darkness moving form cattle</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
-            <div class="media-body">
-              <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
-              </div>
-              <p>Whales and darkness moving form cattle</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
-            <div class="media-body">
-              <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
-              </div>
-              <p>Whales and darkness moving form cattle</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
-            <div class="media-body">
-              <div class="d-flex justify-content-between food-card-title">
-                <h4>Roasted Marrow</h4>
-                <h3 class="price-tag">$32</h3>
-              </div>
-              <p>Whales and darkness moving form cattle</p>
+              <p>The division that responsible to do all things about branding, sponsorship, administration and finance.</p>
             </div>
           </div>
         </div>
@@ -308,150 +256,10 @@
     <div class="container">
       <p>Some Trendy And Popular Courses Offerd</p>
       <h2>Under replenish give saying thing</h2>
-      <a class="button" href="#">Reservation</a>
+      <a class="button" href="{{ '/contact' }}">Contact Us</a>
     </div>
   </section>
   <!--================CTA section end =================-->  
-
-
-  <!--================Chef section start =================-->  
-  <section class="section-margin">
-    <div class="container">
-      <div class="section-intro mb-75px">
-        <h4 class="intro-title">Our Chef</h4>
-        <h2>Talent & experience member</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="chef-card">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/chef-1.png') }}" alt="">
-            <div class="chef-footer">
-              <h4>Daniesl Laran</h4>
-              <p>Executive Chef</p>
-            </div>
-
-            <div class="chef-overlay">
-              <ul class="social-icons">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-                <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="chef-card">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/chef-2.png') }}" alt="">
-            <div class="chef-footer">
-              <h4>Daniesl Laran</h4>
-              <p>Executive Chef</p>
-            </div>
-
-            <div class="chef-overlay">
-              <ul class="social-icons">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-                <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="chef-card">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/chef-3.png') }}" alt="">
-            <div class="chef-footer">
-              <h4>Daniesl Laran</h4>
-              <p>Executive Chef</p>
-            </div>
-
-            <div class="chef-overlay">
-              <ul class="social-icons">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-                <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Chef section end =================-->  
-
-
-  <!--================Reservation section start =================-->  
-  <section class="bg-lightGray section-padding">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 col-xl-5 mb-4 mb-md-0">
-          <div class="section-intro">
-            <h4 class="intro-title">Reservation</h4>
-            <h2 class="mb-3">Get experience from sneaky</h2>
-          </div>
-          <p>Him given and midst tree form seas she'd saw give evening one every make hath moveth you're appear female heaven had signs own days saw they're have let midst given him given and midst tree. Form seas she'd saw give evening</p>
-        </div>
-        <div class="col-md-6 offset-xl-2 col-xl-5">
-          <div class="search-wrapper">
-            <h3>Book A Table</h3>
-
-            <form class="search-form" action="#">
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-user"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Email Address">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-email"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Phone Number">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-headphone-alt"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Select Date">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-notepad"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Select People">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-layout-column3"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group form-group-position">
-                <button class="button border-0" type="submit">Make Reservation</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Reservation section end =================-->  
-
 
   <!--================Blog section start =================-->  
   <section class="section-margin">
@@ -512,6 +320,10 @@
     </div>
   </section>
   <!--================Blog section end =================-->  
+@endsection
 
-
+@section('script')
+<script>
+  $('.nav-home').addClass("active");
+</script>
 @endsection

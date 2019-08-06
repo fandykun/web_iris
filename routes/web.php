@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'PagesController@getHomePage');
+Route::get('/team', 'PagesController@getTeamPage');
+Route::get('/gallery', 'PagesController@getGalleryPage');
+Route::get('/contact', 'PagesController@getContactPage');
+Route::get('/achievement', 'PagesController@getAchievementPage');
