@@ -2348,20 +2348,29 @@ button.button {
 }
 .footer-area {
     padding: 120px 0px 120px;
-    background: #fff8f7;
+    background: #0e2737;
+}
+
+.footer-area h4 {
+    color: #ffffff;
 }
 @media (max-width: 991px) {
     .footer-area {
         padding: 60px 0px;
     }
 }
+
+.footer-area .single-footer-widget {
+    color: #ffffff;
+}
+
 @media (max-width: 991px) {
     .footer-area .single-footer-widget {
         margin-bottom: 30px;
     }
 }
 .footer-area .single-footer-widget p {
-    color: #7b838a;
+    color: #fff;
 }
 .footer-area .single-footer-widget h4 {
     font-weight: 600;
@@ -2385,7 +2394,7 @@ button.button {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    color: #777;
+    color: #fff;
 }
 .footer-area .single-footer-widget ul li a:hover {
     color: #1cc3b2;
@@ -2402,7 +2411,7 @@ button.button {
     width: 67% !important;
     font-weight: 400;
     background: transparent;
-    color: #777;
+    color: #fff;
     padding-left: 20px;
     border-radius: 0;
     font-size: 14px;
@@ -2415,25 +2424,25 @@ button.button {
 .footer-area .single-footer-widget input.placeholder {
     font-size: 14px;
     padding-left: 10px;
-    color: #777;
+    color: #fff;
 }
 .footer-area .single-footer-widget input:-moz-placeholder {
     font-size: 14px;
     padding-left: 10px;
-    color: #777;
+    color: #fff;
 }
 .footer-area .single-footer-widget input::-moz-placeholder {
     font-size: 14px;
     padding-left: 10px;
-    color: #777;
+    color: #fff;
 }
 .footer-area .single-footer-widget input::-webkit-input-placeholder {
     font-size: 14px;
     padding-left: 10px;
-    color: #777;
+    color: #fff;
 }
 .footer-area .single-footer-widget .click-btn {
-    color: #2f2d4e;
+    color: #fff;
     border-radius: 0;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -2463,7 +2472,7 @@ button.button {
     }
 }
 .footer-area .footer-bottom p {
-    color: #777;
+    color: #fff;
 }
 .footer-area .footer-bottom p a {
     color: #1cc3b2;
@@ -2478,13 +2487,13 @@ button.button {
     }
 }
 .footer-area .footer-bottom .footer-social a {
-    background: #2f2d4e;
+    background: #0e2737;
     margin-left: 3px;
-    width: 32px;
+    width: 40px;
     color: #fff;
     display: inline-grid;
     text-align: center;
-    height: 32px;
+    height: 40px;
     align-content: center;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;

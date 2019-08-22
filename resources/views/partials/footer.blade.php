@@ -37,12 +37,11 @@
                     <li>+62857-4665-8456</li>
                     <li><a href="mailto:iris.krsbi@gmail.com">iris.krsbi@gmail.com</a></li>
                 </ul>
-
             </div>
         </div>
         <div class="footer-bottom row align-items-center text-center text-lg-left">
             <p class="footer-text m-0 col-lg-8 col-md-12">
-                Copyright &copy;<script>
+                Copyright &copy; <script>
                     document.write(new Date().getFullYear());
                 </script> IRIS ITS</p>
             <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">

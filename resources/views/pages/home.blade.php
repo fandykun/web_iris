@@ -46,9 +46,9 @@
       </div>
     </div>
     <ul class="social-icons d-none d-lg-block">
-      <li><a href="#"><i class="ti-facebook"></i></a></li>
-      <li><a href="#"><i class="ti-twitter"></i></a></li>
-      <li><a href="#"><i class="ti-instagram"></i></a></li>
+      <li><a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a></li>
+      <li><a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a></li>
     </ul>
   </div>
 </section>
@@ -69,7 +69,7 @@
         <div class="col-md-6 pl-md-5 pl-xl-0 offset-xl-1 col-xl-5">
           <div class="section-intro mb-lg-4">
             <h4 class="intro-title">About Us</h4>
-            <h2>ini diisi apa ya</h2>
+            <h2>IRIS ITS Robotics Team</h2>
           </div>
           <p style="text-align: justify;">IRIS is Institut Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous soccer playing robots. IRIS ITS has competed in the soccer robotic league since 2017. The team consist of students of Institut Teknologi Sepuluh Nopember Surabaya. 
               <br>To build a great team and a robot that is capable of playing football, the team is divided into 4 divisions which are mechanical division, electrical division, programming division, and official division.</p>
@@ -91,105 +91,54 @@
 
       <div class="owl-carousel owl-theme featured-carousel">
         <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/featured1.png') }}" alt="">
+          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
           <div class="item-body">
             <a href="#">
-              <h3>Mountain Mike Pizza</h3>
+              <h3>Kontes Robot Indonesia 2019</h3>
             </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">$35</h3>
-            </div>
+            <p>Got 1st Place on KRI Regional IV 2019</p>
           </div>
         </div>
         <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/featured2.png') }}" alt="">
+          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
           <div class="item-body">
             <a href="#">
-              <h3>Patatas Bravas</h3>
+              <h3>Kontes Robot Indonesia 2019</h3>
             </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">$30</h3>
-            </div>
+            <p>Got 1st Place on KRI Regional IV 2019</p>
           </div>
         </div>
         <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/featured3.png') }}" alt="">
+          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
           <div class="item-body">
             <a href="#">
-              <h3>Pulled Sandwich</h3>
+              <h3>Kontes Robot Indonesia 2019</h3>
             </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">$20</h3>
-            </div>
+            <p>Got 1st Place on KRI Regional IV 2019</p>
           </div>
         </div>
         <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/featured1.png') }}" alt="">
+          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
           <div class="item-body">
             <a href="#">
-              <h3>Mountain Mike Pizza</h3>
+              <h3>Kontes Robot Indonesia 2019</h3>
             </a>
-            <p>Whales and darkness moving</p>
-            <div class="d-flex justify-content-between">
-              <ul class="rating-star">
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-                <li><i class="ti-star"></i></li>
-              </ul>
-              <h3 class="price-tag">$35</h3>
-            </div>
+            <p>Got 1st Place on KRI Regional IV 2019</p>
+          </div>
+        </div>
+        <div class="featured-item">
+          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
+          <div class="item-body">
+            <a href="#">
+              <h3>Kontes Robot Indonesia 2019</h3>
+            </a>
+            <p>Got 1st Place on KRI Regional IV 2019</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!--================Featured Section End =================-->
-
-  <!--================Offer Section Start =================-->
-  <!-- <section class="bg-lightGray section-padding">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-sm">
-          <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/offer-img.png') }}" alt="">
-        </div>
-        <div class="col-sm">
-          <div class="offer-card offer-card-position">
-            <h3>Italian Pizza Offer</h3>
-            <h2>50% OFF</h2>
-            <a class="button" href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--================Offer Section End =================-->
-
 
   <!--================Food menu section start =================-->  
   <section class="section-margin">
@@ -251,72 +200,16 @@
   </section>
   <!--================Food menu section end =================-->  
 
-  <!--================CTA section start =================-->  
-  <section class="cta-area text-center">
-    <div class="container">
-      <p>Some Trendy And Popular Courses Offerd</p>
-      <h2>Under replenish give saying thing</h2>
-      <a class="button" href="{{ '/contact' }}">Contact Us</a>
-    </div>
-  </section>
-  <!--================CTA section end =================-->  
+  @include('partials.contact')
 
   <!--================Blog section start =================-->  
   <section class="section-margin">
     <div class="container">
       <div class="section-intro mb-75px">
-        <h4 class="intro-title">Our Blog</h4>
-        <h2>Latest food and recipe news</h2>
+        <h4 class="intro-title">Our Sponsorship</h4>
+        <h2>Thank you for support our team</h2>
       </div>
 
-      <div class="row">
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/blog/blog1.png') }}" alt="">
-            <div class="blog-body">
-              <ul class="blog-info">
-                <li><a href="#">Admin post</a></li>
-                <li><a href="#">Jan 10, 2019</a></li>
-              </ul>
-              <a href="#">
-                <h3>Huge cavity in antarctic glacie signals rapid</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/blog/blog2.png') }}" alt="">
-            <div class="blog-body">
-              <ul class="blog-info">
-                <li><a href="#">Admin post</a></li>
-                <li><a href="#">Jan 10, 2019</a></li>
-              </ul>
-              <a href="#">
-                <h3>Researcher unearths age
-                    in the desert</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/blog/blog3.png') }}" alt="">
-            <div class="blog-body">
-              <ul class="blog-info">
-                <li><a href="#">Admin post</a></li>
-                <li><a href="#">Jan 10, 2019</a></li>
-              </ul>
-              <a href="#">
-                <h3>High-protein rice brings
-                    value, nutrition</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <!--================Blog section end =================-->  

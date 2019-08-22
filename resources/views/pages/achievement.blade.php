@@ -8,8 +8,8 @@
 <section class="hero-banner hero-banner-sm">
 <div class="hero-wrapper">
     <div class="hero-left">
-    <h1 class="hero-title">Talent Chefs</h1>
-    <p>From  set together our divided own saw divided the form god <br class="d-none d-xl-block"> seas moveth you will fifth under replenish end</p>
+    <h1 class="hero-title">Achievements</h1>
+    <p>IRIS have so many achievement from national <br class="d-none d-xl-block"> and international competition since 2017</p>
     <ul class="hero-info d-none d-lg-block">
         <li>
             <i class="fa fa-users"></i>

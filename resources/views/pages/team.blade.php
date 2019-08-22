@@ -9,8 +9,8 @@
 <section class="hero-banner hero-banner-sm">
 <div class="hero-wrapper">
     <div class="hero-left">
-    <h1 class="hero-title">Our Team</h1>
-    {{-- <p>From  set together our divided own saw divided the form god <br class="d-none d-xl-block"> seas moveth you will fifth under replenish end</p> --}}
+    <h1 class="hero-title">Meet the Team</h1>
+    <p>IRIS’s team consist of undergraduate students <br class="d-none d-xl-block"> from various departement </p>
     <p></p>
     <ul class="hero-info d-none d-lg-block">
         <li>
@@ -74,7 +74,7 @@
 
         <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
           <div class="chef-card">
-            <img class="card-img rounded-0" src="{{ asset('sneaky/img/home/chef-2.png') }}" alt="">
+            <img class="card-img rounded-0" src="{{ asset('iris/member/ayik.jpg') }}" alt="">
             <div class="chef-footer">
               <h4>Daniesl Laran</h4>
               <p>Executive Chef</p>
@@ -114,15 +114,6 @@
   </section>
   <!--================Chef section end =================-->  
 
-  <!--================CTA section start =================-->  
-  <section class="cta-area text-center">
-    <div class="container">
-      <p>Some Trendy And Popular Courses Offerd</p>
-      <h2>Under replenish give saying thing</h2>
-      <a class="button" href="#">Reservation</a>
-    </div>
-  </section>
-  <!--================CTA section end =================-->  
 @endsection
 
 @section('script')
