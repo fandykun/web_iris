@@ -1,3 +1,13 @@
+@php
+    $igToken = '6616646214.1e2fdb7.8849f1413e574a048255eb19aae5644d';
+    $igCount = 9;
+    $igJsonLink = 'https://api.instagram.com/v1/users/self/media/recent/?';
+    $igJsonLink.= 'access_token='. $igToken . '&count='.$igCount;
+
+    $igJson = file_get_contents($igJsonLink);
+    $feed = json_decode($igJson, true, 512, JSON_BIGINT_AS_STRING);
+@endphp
+
 <!-- ================ start footer Area ================= -->
 <footer class="footer-area section-gap">
     <div class="container">
@@ -12,10 +22,26 @@
                 </ul>
             </div>
             <div class="col-xl-6 col-sm-12 mb-12 mb-xl-0 single-footer-widget">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.838995163011!2d112.79762184786317!3d-7.277432886364895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa11d96fdfe5%3A0x329c27ff3fca8170!2sUKM+Robotika+ITS!5e0!3m2!1sen!2sid!4v1484736564728" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.838995163011!2d112.79762184786317!3d-7.277432886364895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa11d96fdfe5%3A0x329c27ff3fca8170!2sUKM+Robotika+ITS!5e0!3m2!1sen!2sid!4v1484736564728" width="100%" height="290" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-xl-3 col-sm-12 mb-8 mb-xl-0 single-footer-widget">
                 <h4 class="text-center">Instafeed</h4>
+                    @php
+                    $idx = 0;
+                    foreach($feed['data'] as $post) {
+                        $imgLink = $post['link'];
+                        $imgSrc = str_replace('http://', 'https://', $post['images']['low_resolution']['url']);
+                        if($idx % 3 == 0)
+                            echo "<ul class='instafeed'>";
+
+                        echo "<li><a href=$imgLink target='_blank'>";
+                            echo "<img class='img-responsive' src=$imgSrc>";
+                        echo "</a></li>";
+                        if($idx % 3 == 2)
+                            echo "</ul>";
+                        $idx++;
+                    }
+                    @endphp
             </div>
         </div>
         <div class="footer-bottom row align-items-center text-center text-lg-left">

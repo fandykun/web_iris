@@ -19,6 +19,8 @@ Route::get('/contact', 'PagesController@getContactPage');
 
 Route::get('/qualification/robocup-2019', 'PagesController@getRobocup2019Page');
 
+Route::post('/contact', 'MessageController@store')->name('message.store');
+
 Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
     Route::post('/login', 'Auth\LoginController@login');
@@ -37,7 +39,6 @@ Route::prefix('/admin')->group(function () {
         //Message
         Route::get('/message', 'MessageController@index');
         Route::get('/message/create', 'MessageController@create')->name('message.create');
-        Route::post('/message/create', 'MessageController@store')->name('message.store');
         Route::put('/message/edit', 'MessageController@update')->name('message.update');
         Route::delete('/message/delete', 'MessageController@delete')->name('message.delete');
 

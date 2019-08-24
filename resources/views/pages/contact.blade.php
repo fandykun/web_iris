@@ -10,7 +10,7 @@
   </div>
 @elseif (\Session::has('error'))
   <div class="alert alert-danger text-center" role="alert">
-    Error! Please fulfill your data.
+    Error! Please fulfill your data/message.
   </div>
 @endif
 <!--================Hero Banner Section start =================-->
