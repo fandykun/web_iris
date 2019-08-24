@@ -1,35 +1,34 @@
 <!-- Sidebar -->
 <ul class="sidebar navbar-nav">
-    <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <li class="nav-item" id="nav-dashboard">
+    <a class="nav-link" href="{{ '/admin' }}">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span>
     </a>
     </li>
-    <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-fw fa-folder"></i>
-        <span>Pages</span>
-    </a>
-    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-        <h6 class="dropdown-header">Login Screens:</h6>
-        <a class="dropdown-item" href="login.html">Login</a>
-        <a class="dropdown-item" href="register.html">Register</a>
-        <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-        <div class="dropdown-divider"></div>
-        <h6 class="dropdown-header">Other Pages:</h6>
-        <a class="dropdown-item" href="404.html">404 Page</a>
-        <a class="dropdown-item" href="blank.html">Blank Page</a>
-    </div>
+    <li class="nav-item" id="nav-gallery">
+        <a class="nav-link" href="{{ '/admin/gallery' }}">
+            <i class="fas fa-fw fa-camera-retro"></i>
+            <span>Gallery</span></a>
     </li>
-    <li class="nav-item">
-    <a class="nav-link" href="charts.html">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Charts</span></a>
+    <li class="nav-item" id="nav-member">
+        <a class="nav-link" href="{{ '/admin/member' }}">
+            <i class="fas fa-fw fa-user-friends"></i>
+            <span>Members</span></a>
     </li>
-    <li class="nav-item">
-    <a class="nav-link" href="tables.html">
-        <i class="fas fa-fw fa-table"></i>
-        <span>Tables</span></a>
+    <li class="nav-item" id="nav-event">
+        <a class="nav-link" href="{{ '/admin/event' }}">
+            <i class="fas fa-fw fa-calendar-alt"></i>
+            <span>Events</span></a>
+    </li>
+    <li class="nav-item" id="nav-message">
+        <a class="nav-link" href="{{ '/admin/message' }}">
+            <i class="fas fa-fw fa-envelope-open"></i>
+            <span>Messages</span></a>
+    </li>
+    <li class="nav-item" id="nav-slider">
+        <a class="nav-link" href="{{ '/admin/slider' }}">
+            <i class="fas fa-fw fa-images"></i>
+            <span>Sliders</span></a>
     </li>
 </ul>

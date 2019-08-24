@@ -33,5 +33,33 @@ Route::prefix('/admin')->group(function () {
         Route::post('/member/create', 'MemberController@store')->name('member.store');
         Route::put('/member/edit', 'MemberController@update')->name('member.update');
         Route::delete('/member/delete', 'MemberController@delete')->name('member.delete');
+
+        //Message
+        Route::get('/message', 'MessageController@index');
+        Route::get('/message/create', 'MessageController@create')->name('message.create');
+        Route::post('/message/create', 'MessageController@store')->name('message.store');
+        Route::put('/message/edit', 'MessageController@update')->name('message.update');
+        Route::delete('/message/delete', 'MessageController@delete')->name('message.delete');
+
+        //Gallery
+        Route::get('/gallery', 'GalleryController@index');
+        Route::get('/gallery/create', 'GalleryController@create')->name('gallery.create');
+        Route::post('/gallery/create', 'GalleryController@store')->name('gallery.store');
+        Route::put('/gallery/edit', 'GalleryController@update')->name('gallery.update');
+        Route::delete('/gallery/delete', 'GalleryController@delete')->name('gallery.delete');
+
+        //Event
+        Route::get('/event', 'EventController@index');
+        Route::get('/event/create', 'EventController@create')->name('event.create');
+        Route::post('/event/create', 'EventController@store')->name('event.store');
+        Route::put('/event/edit', 'EventController@update')->name('event.update');
+        Route::delete('/event/delete', 'EventController@delete')->name('event.delete');
+
+        //Slider
+        Route::get('/slider', 'SliderController@index');
+        Route::get('/slider/create', 'SliderController@create')->name('slider.create');
+        Route::post('/slider/create', 'SliderController@store')->name('slider.store');
+        Route::put('/slider/edit', 'SliderController@update')->name('slider.update');
+        Route::delete('/slider/delete', 'SliderController@delete')->name('slider.delete');
     });
 });

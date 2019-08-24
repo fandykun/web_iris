@@ -14,7 +14,8 @@ class MemberController extends Controller
      */
     public function index()
     {
-        //
+        $members = Member::orderBy('updated_at', 'desc')->get();
+        return view('admin.pages.member', compact('members'));
     }
 
     /**

@@ -22,7 +22,9 @@
     <div id="wrapper">
         @include('admin.partials.sidebar')
         <div id="content-wrapper">
-        @yield('content')
+            <div class="container-fluid">
+            @yield('content')
+            </div>
         @include('admin.partials.footer')
     </div>
 
@@ -52,7 +54,7 @@
   <!-- Demo scripts for this page-->
   <script src="{{ asset('sb-admin/js/demo/datatables-demo.js') }}"></script>
   <script src="{{ asset('sb-admin/js/demo/chart-area-demo.js') }}"></script>
-
+    @yield('script')
 </body>
 
 </html>

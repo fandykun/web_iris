@@ -14,7 +14,8 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        //
+        $galleries = Gallery::orderBy('updated_at', 'desc')->get();
+        return view('admin.pages.gallery', compact('galleries'));
     }
 
     /**

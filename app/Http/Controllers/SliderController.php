@@ -14,7 +14,8 @@ class SliderController extends Controller
      */
     public function index()
     {
-        //
+        $sliders = Slider::orderBy('updated_at', 'desc')->get();
+        return view('admin.pages.slider', compact('sliders'));
     }
 
     /**
