@@ -2,33 +2,6 @@
 <footer class="footer-area section-gap">
     <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Contact Us</h4>
-                <ul>
-                    <li>Laboratorium Workshop, Lantai II, Pusat Robotika ITS</li>
-                    <li>Jl. Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111</li>
-                    <li><a href="#">Power Tools</a></li>
-                    <li><a href="#">Marketing Service</a></li>
-                </ul>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Features</h4>
-                <ul>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Brand Assets</a></li>
-                    <li><a href="#">Investor Relations</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                <h4>Resources</h4>
-                <ul>
-                    <li><a href="#">Guides</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">Experts</a></li>
-                    <li><a href="#">Agencies</a></li>
-                </ul>
-            </div>
             <div class="col-xl-3 col-md-8 mb-4 mb-xl-0 single-footer-widget">
                 <h4>Contact Us</h4>
                 <ul>
@@ -37,6 +10,12 @@
                     <li>+62857-4665-8456</li>
                     <li><a href="mailto:iris.krsbi@gmail.com">iris.krsbi@gmail.com</a></li>
                 </ul>
+            </div>
+            <div class="col-xl-6 col-sm-12 mb-12 mb-xl-0 single-footer-widget">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.838995163011!2d112.79762184786317!3d-7.277432886364895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa11d96fdfe5%3A0x329c27ff3fca8170!2sUKM+Robotika+ITS!5e0!3m2!1sen!2sid!4v1484736564728" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-xl-3 col-sm-12 mb-8 mb-xl-0 single-footer-widget">
+                <h4 class="text-center">Instafeed</h4>
             </div>
         </div>
         <div class="footer-bottom row align-items-center text-center text-lg-left">

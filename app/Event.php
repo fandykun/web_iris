@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Message extends Model
+class Event extends Model
 {
     protected $guarded = [];
-    protected $table = 'messages';
+    protected $table = 'events';
 }
