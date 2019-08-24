@@ -13,7 +13,7 @@
     <ul class="hero-info d-none d-lg-block">
         <li>
             <i class="fa fa-users"></i>
-            <h4>16 Members</h4>
+            <h4>16 Active Members</h4>
         </li>
         <li>
             <i class="fa fa-android"></i>
@@ -122,22 +122,22 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>Address</h3>
+              <p>Laboratorium Workshop Lantai II<br>Sekretariat Robotika ITS</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3><a>Phone number</a></h3>
+              <p>+62857-4665-8456 </p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-              <p>Send us your query anytime!</p>
+              <h3><a>Email</a></h3>
+              <p>iris.krsbi@gmail.com</p>
             </div>
           </div>
         </div>

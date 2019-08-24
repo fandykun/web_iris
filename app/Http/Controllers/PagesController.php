@@ -30,4 +30,9 @@ class PagesController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function getRobocup2019Page()
+    {
+        return view('pages.qualification.robocup2019');
+    }
 }

@@ -16,7 +16,14 @@
                     <li class="nav-item nav-team"><a class="nav-link" href="{{ '/team' }}">Team</a></li>
                     <li class="nav-item nav-gallery"><a class="nav-link" href="{{ '/gallery' }}">Gallery</a></li>
                     <li class="nav-item nav-achievement"><a class="nav-link" href=" {{ '/achievement' }} ">Achievement</a>
-                    <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a>
+                    <li class="nav-item submenu dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Qualification</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2019'}}">Robocup 2019</a></li>
+                        </ul>
+                    </li>
+                        <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a>
                     </ul>
                 </div>
             </div>

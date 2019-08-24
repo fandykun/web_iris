@@ -14,7 +14,7 @@
       <ul class="hero-info d-none d-lg-block">
         <li>
           <i class="fa fa-users"></i>
-          <h4>16 Members</h4>
+          <h4>16 Active Members</h4>
         </li>
         <li>
             <i class="fa fa-android"></i>
