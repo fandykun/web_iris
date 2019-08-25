@@ -29,11 +29,18 @@
         padding: 12px 45px;
     }
 }
+@media (max-width: 599px) {
+    .customButton {
+        padding: 8px 30px;
+    }
+}
+
 
 .customButton:hover {
     background-color: #2a303b;
     color: #fff;
 }
+
 </style>
 @endsection
 
@@ -87,7 +94,7 @@
     </div>
 
     <div class="mb-75px text-center">
-      <ul class="teamFilter d-inline-flex">
+      <ul class="teamFilter d-sm-inline-flex">
           <li><a href="javascript:void(0)" data-filter="" class="selected customButton">All members</a></li>
           <li><a href="javascript:void(0)" data-filter=".Lead" class="customButton">Team Leader</a></li>
           <li><a href="javascript:void(0)" data-filter=".Ofc" class="customButton">Official</a></li>

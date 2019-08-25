@@ -54,7 +54,7 @@
           <div class="timeline">
             <div class="timeline-content">
               <div class="timeline-icon">
-                <i class="fa fa-users"></i>
+                <i class="fa fa-trophy"></i>
               </div>
               <div class="inner-content">
                 <h3 class="title">Kontes Robot Indonesia 2017</h3>
@@ -70,7 +70,7 @@
           <div class="timeline">
             <div class="timeline-content">
               <div class="timeline-icon">
-                <i class="fa fa-globe"></i>
+                <i class="fa fa-ravelry"></i>
               </div>
               <div class="inner-content">
                 <h3 class="title">Kontes Robot Indonesia 2018</h3>
@@ -100,7 +100,7 @@
           <div class="timeline">
             <div class="timeline-content">
               <div class="timeline-icon">
-                <i class="fa fa-globe"></i>
+                <i class="fa fa-line-chart"></i>
               </div>
               <div class="inner-content">
                 <h3 class="title">Kontes Robot Indonesia 2019</h3>
@@ -117,7 +117,7 @@
           <div class="timeline">
             <div class="timeline-content">
               <div class="timeline-icon">
-                <i class="fa fa-rocket"></i>
+                <i class="fa fa-globe"></i>
               </div>
               <div class="inner-content">
                 <h3 class="title">FIRA RoboWorld Cup 2019</h3>

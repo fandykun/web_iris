@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IRIS-ITS Robotics Team</title>
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('/iris/logo.png') }}" />
 
     <link rel="stylesheet" href="{{ asset('sneaky/vendors/bootstrap/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('sneaky/vendors/themify-icons/themify-icons.css') }}">
@@ -49,6 +49,15 @@
             document.getElementById("loader").style.display = "none";
             document.getElementById("body").style.display = "block";
         }
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() < 50) { 
+                $('.logo_h img').attr('src','{{ asset('iris/logo-header-green.png') }}');
+            }
+            else { 
+                $('.logo_h img').attr('src','{{ asset('iris/logo-header.png') }}');
+            }
+        });
     </script>
     @yield('script')
 </body>

@@ -1,6 +1,6 @@
 /*
 Created by  : Fandy Kuncoro Adianto
-Last Update : 25-8-2019
+Last Update : 25-6-2019
 */
 .box {
     position: fixed;
@@ -205,3 +205,56 @@ Last Update : 25-8-2019
     }
     .main-timeline .title{ font-size: 18px; }
 }
+
+.roberto-service-area {
+  position: relative;
+  z-index: 1; }
+  @media only screen and (max-width: 767px) {
+    .roberto-service-area .service-content {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-bottom: 70px; } }
+
+.single-service--area {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0 2px 14px 5px rgba(20, 20, 20, 0.05);
+  border-radius: 3px;
+  padding: 30px;
+  text-align: center; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-service--area {
+      padding: 20px; } }
+  @media only screen and (max-width: 767px) {
+    .single-service--area {
+      padding: 20px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+      flex: 0 0 45%;
+      max-width: 45%;
+      width: 45%;
+      margin-bottom: 30px; } }
+  .single-service--area img {
+    margin-bottom: 20px;
+    display: inline-block;
+    max-height: 120px; }
+    @media only screen and (max-width: 767px) {
+      .single-service--area img {
+        max-height: 75px; } }
+  .single-service--area h5 {
+    margin-bottom: 0;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-service--area h5 {
+        font-size: 16px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .single-service--area h5 {
+        font-size: 14px; } }
+    @media only screen and (max-width: 767px) {
+      .single-service--area h5 {
+        font-size: 14px; } }
+  .single-service--area:hover h5, .single-service--area:focus h5 {
+    color: #1cc3b2; }

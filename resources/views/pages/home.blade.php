@@ -206,13 +206,23 @@
   @include('partials.contact')
 
   <!--================Blog section start =================-->  
-  <section class="section-margin">
+  <section class="section-margin roberto-service-area">
     <div class="container">
       <div class="section-intro mb-75px">
         <h4 class="intro-title">Our Sponsorship</h4>
         <h2>Thank you for support our team</h2>
       </div>
-
+      <div class="row">
+        <div class="col-12">
+          <div class="service-content d-flex align-items-center justify-content-around">
+            <!-- Single Service Area -->
+            <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="100ms">
+              <img src="{{ asset('img/sponsorship/Jawa-Power.png') }}" alt="">
+              <h5>PT. Jawa Power</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!--================Blog section end =================-->  

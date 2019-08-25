@@ -6,25 +6,21 @@
   margin-bottom: 3px !important;
 }
 
-.content p {
-  font-size: 16px;
+.content p, .content ul {
+  font-size: 17px;
 }
 
-.content ul {
-  font-size: 16px;
+.content a, .content ul li a {
+  font-size: 19px;
+  color: #1cc3b2;
 }
+.content a:hover, .content ul li a:hover {
+  color: #0e2737;
+}
+
 .content ul li {
   text-align: justify;
   margin-bottom: 12px;
-}
-
-.content ul li a {
-  font-size: 18px;
-  color: #1cc3b2;
-}
-
-.content ul li a:hover {
-  color: #0e2737;
 }
 
 .embed-responsive-16by9 {
@@ -91,7 +87,7 @@ table {
       <h4 class="intro-title">Team Description Paper</h4>
     </div>
     <div class="content mb-75px">
-      <p>The team description paper can be downloaded from here.</p>
+      <p>The team description paper can be downloaded from <a href="{{ asset('document/Team_Description_Paper_IRIS_2019.pdf') }}">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">
@@ -100,13 +96,13 @@ table {
     <div class="content mb-75px">
       <ul>
         <li>Artificial Neural Network untuk Pengukuran Posisi Bola Menggunakan Kamera Omnidireksional Pada Robot Sepak Bola Beroda. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2017, Universitas Pendidikan Indonesia Bandung.
-          <br><a href="#">Download</a></li>
+          <br><a href="{{ asset('document/Artificial _Neural_Network_Untuk_Pengukuran _Posisi_Bola_Menggunakan_Kamera _Omnidireksional_Pada_Robot_Sepak_Bola_Beroda.pdf') }}" target="_blank">Download</a></li>
         <li>Penggunaan Kamera Global untuk Menentukan Posisi Robot pada Lapangan. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2018, Universitas Muhammadiyah Yogyakarta.
-          <br><a href="#">Download</a></li>
+          <br><a href="{{ asset('document/Penggunaan_Kamera_Global_untuk_Menentukan_Posisi_Robot_pada_Lapangan.pdf') }}" target="_blank">Download</a></li>
         <li>Dikairono, R., Rachman, A. A., Setiawardhana, Sardjono, T. A., & Purwanto, D. (2017). Motion Planning Simulator for Holonomic Robot Soccer Platform. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
-          <br><a href="#">Download</a></li>
+          <br><a href="{{ asset('document/Motion_Planning_Simulator_for_Holomic_Robot_Soccer_Platform.pdf') }}" target="_blank">Download</a></li>
         <li>Setiawardhana, Dikariono, R., Sardjono, T. A., & Purwanto, D. (2017). Visual Ball Tracking and Prediction with Unique Segmented Area on Soccer Robot. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
-          <br><a href="#">Download</a></li>
+          <br><a href="{{ asset('document/Visual_Ball_Tracking_and_Prediction_with_Unique_Segmented_Area_on_Soccer_Robot.pdf') }}" target="_blank">Download</a></li>
       </ul>
     </div>
 
@@ -124,14 +120,16 @@ table {
       <h4 class="intro-title">Achievements</h4>
     </div>
     <div class="content mb-75px">
-      <p>All achievements can be seen here.</p>
+      <p>All achievements can be seen 
+        <a href="{{ ('/achievement') }}" target="_blank">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">
-      <h4 class="intro-title">Mechanical and Electrical Description</h4>
+      <h4 class="intro-title">Mechanical and <br>Electrical Description</h4>
     </div>
     <div class="content mb-75px">
-      <p>The mechanical and electrical design and detailed software flowchart of IRIS team can be found on the following links here.</p>
+      <p>The mechanical and electrical design and detailed software flowchart of IRIS team can be found on the following links 
+        <a href="{{ asset('document/Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf') }}" target="_blank">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">

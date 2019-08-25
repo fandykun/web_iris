@@ -151,6 +151,11 @@ h4,
     padding: 0;
 }
 
+.header_area .navbar-brand img{
+    width: 120px;
+}
+
+
 .header_area .navbar-social {
     min-width: 95px;
     float: right;
@@ -458,7 +463,7 @@ h4,
         background: #fff;
     }
     .header_area .navbar .nav-item.active .nav-link {
-        color: #1cc3b2 !important;
+        color: #1cc3b2;
     }
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
         opacity: 1;
@@ -485,6 +490,12 @@ h4,
         margin-bottom: 4px;
         transition: all 400ms linear;
         cursor: pointer;
+    }
+    .header_area.navbar_fixed .main_menu .navbar .navbar-toggler span {
+        background: #fff;
+    }
+    .header_area.navbar_fixed .main_menu .navbar .navbar-collapse .active {
+        color: #fff; 
     }
     .navbar .container {
         padding-left: 15px;
