@@ -51,7 +51,7 @@
                     <td>{{ $member->twitter }}</td>
                     <td>{{ $member->linkedin }}</td>
                     <td>{{ $member->instagram }}</td>
-                    <td><img src="{{ asset('storage/member/'.$member->image) }}"></td>
+                    <td><img class="img-thumbnail" src="{{ asset('iris/member/'.$member->name.'.jpg') }}"></td>
                     </tr>
                     @endforeach
                 </tbody>

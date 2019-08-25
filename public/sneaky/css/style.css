@@ -1381,6 +1381,7 @@ h4,
 .chef-card {
     position: relative;
     overflow: hidden;
+    margin-bottom: 45px;
 }
 
 .chef-card .chef-footer {
@@ -1396,6 +1397,7 @@ h4,
 }
 
 .chef-card h4 {
+    font-size: 16px;
     margin-bottom: 0;
 }
 

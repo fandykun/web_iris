@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Member;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -13,7 +14,8 @@ class PagesController extends Controller
 
     public function getTeamPage()
     {
-        return view('pages.team');
+        $members = Member::orderBy('description', 'desc')->get();
+        return view('pages.team', compact('members'));
     }
 
     public function getGalleryPage()

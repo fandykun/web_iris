@@ -1,0 +1,16 @@
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Muhammad Fayrus', 'Mech', 'Mechanical Division', '', '', '', 'Fayrus_m');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Aulia Rayimas Tinkar', 'Elec', 'Electronic Division Manager', '', '', '', 'auliaray_');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Dhiaul Maruf', 'Prog', 'Programming Division', 'dhiaul.maruf.7', 'dhiaulm98', 'dhiaul-ma-ruf-97a545173', 'dhiaul_98');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Dzulfikar Ahmad Samhan', 'Prog', 'Programming Division Manager', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Dwiki Febrianto', 'Mech', 'Mechanical Division Manager', '', '', 'dwiki-febrianto-875606157', 'dwiki02f');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Ilham Jati Kusumo', 'Elec', 'Electronic Division', '', '', '', 'ilham.jk');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Muhammad Revo Khairullah', 'Lead', 'Team Leader', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Khusnul Khotimah', 'Ofc', 'Official Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Fatma Cahyani', 'Ofc', 'Official Division Manager', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Habib Ihza Alamsyah', 'Prog', 'Programming Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Achmad Ali Muchsin', 'Elec', 'Electronic Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Muhammad Azhar Ismail', 'Elec', 'Electronic Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Ivan Falahul Alam', 'Prog', 'Programming Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Fandy Kuncoro Adianto', 'Prog', 'Programming Division', 'fandykuncoroadianto', 'fandykunnn', 'fandy-kuncoro-adianto-4b4607178', 'fandykun');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Robby', 'Mech', 'Mechanical Division', '', '', '', '');
+INSERT INTO members(name, division, description, facebook, twitter, linkedin, instagram) VALUES ('Maulana Falithurrahman', 'Mech', 'Mechanical Division', '', '', '', '');
