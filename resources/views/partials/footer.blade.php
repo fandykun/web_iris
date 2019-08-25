@@ -50,9 +50,9 @@
                     document.write(new Date().getFullYear());
                 </script> IRIS ITS</p>
             <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                <a href="#"><i class="ti-youtube"></i></a>
-                <a href="#"><i class="ti-twitter-alt"></i></a>
-                <a href="#"><i class="ti-instagram"></i></a>
+                <a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a>
+                <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a>
+                <a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a>
             </div>
         </div>
     </div>

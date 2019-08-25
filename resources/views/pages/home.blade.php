@@ -136,6 +136,9 @@
           </div>
         </div>
       </div>
+      <div class="text-center">
+        <a class="button button-shadow mt-2 mt-lg-4" href="{{ '/gallery' }}">More Gallery</a>
+      </div>
     </div>
   </section>
   <!--================Featured Section End =================-->

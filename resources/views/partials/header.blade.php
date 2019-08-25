@@ -16,7 +16,7 @@
                     <li class="nav-item nav-team"><a class="nav-link" href="{{ '/team' }}">Team</a></li>
                     <li class="nav-item nav-gallery"><a class="nav-link" href="{{ '/gallery' }}">Gallery</a></li>
                     <li class="nav-item nav-achievement"><a class="nav-link" href=" {{ '/achievement' }} ">Achievement</a>
-                    <li class="nav-item submenu dropdown">
+                    <li class="nav-item nav-qualification submenu dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false">Qualification</a>
                         <ul class="dropdown-menu">

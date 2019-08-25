@@ -33,6 +33,6 @@ class PagesController extends Controller
 
     public function getRobocup2019Page()
     {
-        return view('pages.qualification.robocup2019');
+        return view('pages.qualification.robocup-2019');
     }
 }
