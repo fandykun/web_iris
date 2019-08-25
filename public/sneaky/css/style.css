@@ -96,7 +96,7 @@ h4,
 }
 
 .bg-lightGray {
-    background: #fff8f7;
+    background: #fff;
 }
 
 .section-margin {
@@ -1080,7 +1080,7 @@ h4,
 }
 
 .featured-item {
-    background: #fff8f7;
+    background: #fff;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1266,7 +1266,7 @@ h4,
 }
 
 .food-card {
-    background: #fff8f7;
+    background: #fff;
     padding: 20px 10px;
     margin-bottom: 20px;
     -webkit-transition: all 0.3s ease 0s;
@@ -1310,7 +1310,7 @@ h4,
 }
 
 .food-card-title h4 {
-    background: #fff8f7;
+    background: #fff;
     z-index: 1;
     padding-right: 10px;
     -webkit-transition: all 0.3s ease 0s;
@@ -1320,7 +1320,7 @@ h4,
 }
 
 .food-card-title h3 {
-    background: #fff8f7;
+    background: #fff;
     z-index: 1;
     padding-left: 10px;
     -webkit-transition: all 0.3s ease 0s;
@@ -1459,7 +1459,7 @@ h4,
 }
 
 .card-blog {
-    background: #fff8f7;
+    background: #fff;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -2756,7 +2756,7 @@ h4,
 }
 
 .button-shadow {
-    box-shadow: -5px 8px 20px 0 rgba(229, 16, 2, 0.15);
+    box-shadow: -5px 8px 20px 0 rgba(49, 110, 100, 0.15);
 }
 
 button.button {

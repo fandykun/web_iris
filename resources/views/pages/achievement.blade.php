@@ -21,7 +21,7 @@
         </li>
         <li>
             <i class="fa fa-trophy"></i>
-            <h4>15 Achievements</h4>
+            <h4>17 Achievements</h4>
         </li>
     </ul>
     </div>
@@ -33,9 +33,9 @@
       </div>
     </div>
     <ul class="social-icons d-none d-lg-block">
-    <li><a href="#"><i class="ti-facebook"></i></a></li>
-    <li><a href="#"><i class="ti-twitter"></i></a></li>
-    <li><a href="#"><i class="ti-instagram"></i></a></li>
+      <li><a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a></li>
+      <li><a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a></li>
     </ul>
 </div>
 </section>

@@ -1,5 +1,18 @@
 @extends('layouts.landing')
 
+@section('style')
+<style>
+.division i {
+  font-size: 60px;
+}
+.fa-gradient {
+	background: -webkit-gradient(linear, left top, left bottom, from(#1cc3b2), to(#0e2737));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+</style>
+@endsection
+
 @section('content')
 
 <!--================Hero Banner Section start =================-->
@@ -22,7 +35,7 @@
         </li>
         <li>
           <i class="fa fa-trophy"></i>
-          <h4>15 Achievements</h4>
+          <h4>17 Achievements</h4>
         </li>
       </ul>
     </div>
@@ -153,7 +166,9 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
+            <div class="mr-3 mr-sm-4 division">
+              <i class="fa fa-bolt fa-gradient" aria-hidden="true"></i>
+            </div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Electronic Division</h4>
@@ -165,7 +180,9 @@
 
         <div class="col-lg-6">
           <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
+              <div class="mr-3 mr-sm-4 division">
+                <i class="fa fa-gears fa-gradient" aria-hidden="true"></i>
+              </div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Mechanics Division</h4>
@@ -177,7 +194,9 @@
 
         <div class="col-lg-6">
           <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
+              <div class="mr-3 mr-sm-4 division">
+                <i class="fa fa-code fa-gradient" aria-hidden="true"></i>
+              </div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Programming Division</h4>
@@ -189,7 +208,9 @@
 
         <div class="col-lg-6">
           <div class="media align-items-center food-card">
-            <img class="mr-3 mr-sm-4" src="{{ asset('sneaky/img/home/food1.png') }}" alt="">
+              <div class="mr-3 mr-sm-4 division">
+                <i class="fa fa-file-text fa-gradient" aria-hidden="true"></i>
+              </div>
             <div class="media-body">
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Official Division</h4>
