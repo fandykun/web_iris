@@ -97,7 +97,7 @@
       </ul>
     </div>
 
-    <div class="row justify-content-md-center" id="teamContainer">
+    <div class="row justify-content-md-center text-center" id="teamContainer">
       @foreach($members as $member)
       <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 element-item {{ $member->division }}">
         <div class="chef-card">
@@ -144,14 +144,6 @@
 
   $(window).on('load', function(){
     var $container = $('#teamContainer');
-
-    // $container.isotope({
-    //   itemSelector: '.element-item',
-    //   masonry: {
-    //     columnWidth: 40,
-    //     isFitWidth: true
-    //   }
-    // });
 
     $('.teamFilter a').click(function() {
         $('.teamFilter .selected').removeClass('selected');

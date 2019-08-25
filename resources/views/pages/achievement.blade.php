@@ -40,6 +40,101 @@
 </div>
 </section>
 <!--================Hero Banner Section end =================-->
+
+<section class="section-margin">
+  <div class="container">
+    <div class="section-intro mb-75px">
+      <h4 class="intro-title">Achievements</h4>
+      <h2>Our achievements from 2017 - now</h2>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-offset-2 col-md-8 col-sm-12">
+        <div class="main-timeline">
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-users"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">Kontes Robot Indonesia 2017</h3>
+                <p class="description">
+                    <strong>Third Place</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                    <strong>Best Design</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                    <strong>Best Design</strong> Kontes Robot Indonesia (KRI) Nasional<br>
+                    <strong>Best Innovation</strong> Kontes Robot Indonesia (KRI) Nasional
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">Kontes Robot Indonesia 2018</h3>
+                <p class="description">
+                  <strong>First Place</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                  <strong>Best Strategy</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                  <strong>Second Place</strong> Kontes Robot Indonesia (KRI) Nasional
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">FIRA RoboWorld Cup 2018</h3>
+                <p class="description">
+                    <strong>First Place</strong> Passing Challenge<br>
+                    <strong>Third Place</strong> Obstacle Avoidance Challenge<br>
+                    <strong>Third Place</strong> Localization Challenge<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">Kontes Robot Indonesia 2019</h3>
+                <p class="description">
+                    <strong>First Place</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                    <strong>Best Design</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                    <strong>First Place</strong> Kontes Robot Indonesia (KRI) Nasional<br>
+                    <strong>Best Design</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                    <strong>Best Strategy</strong> Kontes Robot Indonesia (KRI) Regional IV<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">FIRA RoboWorld Cup 2019</h3>
+                <p class="description">
+                    <strong>Second Place</strong> Passing Challenge<br>
+                    <strong>Second Place</strong> Localization Challenge<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 @endsection
 
 @section('script')
