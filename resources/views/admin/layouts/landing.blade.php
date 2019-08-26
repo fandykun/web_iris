@@ -8,7 +8,7 @@
   <meta name="author" content="">
 
   <title>Admin</title>
-
+  <link rel="icon" type="image/png" href="{{ asset('/iris/logo.png') }}" />
   <!-- Custom fonts for this template-->
   <link href="{{ asset('sb-admin/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
   <!-- Page level plugin CSS-->
