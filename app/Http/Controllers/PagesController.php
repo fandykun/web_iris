@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Gallery;
 use App\Member;
 use Illuminate\Http\Request;
 
@@ -9,7 +10,8 @@ class PagesController extends Controller
 {
     public function getHomePage()
     {
-        return view('pages.home');
+        $galleries = Gallery::orderBy('updated_at', 'desc')->take(5)->get();
+        return view('pages.home', compact('galleries'));
     }
 
     public function getTeamPage()
@@ -20,7 +22,8 @@ class PagesController extends Controller
 
     public function getGalleryPage()
     {
-        return view('pages.gallery');
+        $galleries = Gallery::all();
+        return view('pages.gallery', compact('galleries'));
     }
 
     public function getAchievementPage()

@@ -13,9 +13,9 @@ class ForeignKeys extends Migration
      */
     public function up()
     {
-        Schema::table('galleries', function (Blueprint $table) {
-            $table->foreign('event_id')->references('id')->on('events');
-        });
+        // Schema::table('galleries', function (Blueprint $table) {
+        //     $table->foreign('event_id')->references('id')->on('events');
+        // });
     }
 
     /**

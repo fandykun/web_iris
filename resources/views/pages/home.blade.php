@@ -103,51 +103,17 @@
 
 
       <div class="owl-carousel owl-theme featured-carousel">
+        @foreach($galleries as $gallery)
         <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
+          <img class="card-img rounded-0" src="{{ asset('storage/gallery/'. $gallery->image) }}" alt="">
           <div class="item-body">
             <a href="#">
-              <h3>Kontes Robot Indonesia 2019</h3>
+              <h3>{{ $gallery->title }}</h3>
             </a>
-            <p>Got 1st Place on KRI Regional IV 2019</p>
+            <p>{{ $gallery->description }}</p>
           </div>
         </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Kontes Robot Indonesia 2019</h3>
-            </a>
-            <p>Got 1st Place on KRI Regional IV 2019</p>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Kontes Robot Indonesia 2019</h3>
-            </a>
-            <p>Got 1st Place on KRI Regional IV 2019</p>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Kontes Robot Indonesia 2019</h3>
-            </a>
-            <p>Got 1st Place on KRI Regional IV 2019</p>
-          </div>
-        </div>
-        <div class="featured-item">
-          <img class="card-img rounded-0" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
-          <div class="item-body">
-            <a href="#">
-              <h3>Kontes Robot Indonesia 2019</h3>
-            </a>
-            <p>Got 1st Place on KRI Regional IV 2019</p>
-          </div>
-        </div>
+        @endforeach
       </div>
       <div class="text-center">
         <a class="button button-shadow mt-2 mt-lg-4" href="{{ '/gallery' }}">More Gallery</a>
