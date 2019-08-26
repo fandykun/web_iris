@@ -14,7 +14,10 @@
   <!-- Page level plugin CSS-->
   <link href="{{ asset('sb-admin/vendor/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet">
   <!-- Custom styles for this template-->
+  <link rel="stylesheet" href="{{ asset('sneaky/vendors/bootstrap/bootstrap.min.css') }}">
   <link href="{{ asset('sb-admin/css/sb-admin.css') }}" rel="stylesheet">
+  <style>
+  </style>
 </head>
 
 <body id="page-top">
@@ -38,7 +41,7 @@
 
   <!-- Bootstrap core JavaScript-->
   <script src="{{ asset('sb-admin/vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('sb-admin/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 
   <!-- Core plugin JavaScript-->
   <script src="{{ asset('sb-admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
@@ -55,6 +58,8 @@
   <script src="{{ asset('sb-admin/js/demo/datatables-demo.js') }}"></script>
   <script src="{{ asset('sb-admin/js/demo/chart-area-demo.js') }}"></script>
     @yield('script')
+    @yield('script2')
+    @yield('script3')
 </body>
 
 </html>

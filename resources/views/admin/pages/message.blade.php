@@ -2,11 +2,12 @@
 
 @section('content')
     <!-- Breadcrumbs-->
-    <ol class="breadcrumb">
+    <ol class="breadcrumb" style="align-items: center;">
         <li class="breadcrumb-item">
         <a href="{{ '/admin' }}">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Members</li>
+        <button type="button" class="btn btn-success float-right ml-auto">Create</button>
     </ol>
 
     <!-- DataTables Example -->
@@ -23,6 +24,7 @@
                         <th>Email</th>
                         <th>Subject</th>
                         <th>Message</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -31,6 +33,7 @@
                         <th>Email</th>
                         <th>Subject</th>
                         <th>Message</th>
+                        <th>Action</th>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -40,6 +43,10 @@
                         <td>{{ $message->email }}</td>
                         <td>{{ $message->subject }}</td>
                         <td>{{ $message->message }}</td>
+                        <td class="text-center">
+                            <a href="#" class="badge badge-warning">Edit</a>
+                            <a href="#" class="badge badge-danger">Delete</a>
+                        </td>
                     </tr>
                     @endforeach
                 </tbody>

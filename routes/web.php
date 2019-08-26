@@ -47,13 +47,14 @@ Route::prefix('/admin')->group(function () {
 
         //Gallery
         Route::get('/gallery', 'GalleryController@index');
-        Route::get('/gallery/create', 'GalleryController@create')->name('gallery.create');
-        Route::post('/gallery/create', 'GalleryController@store')->name('gallery.store');
+        Route::get('/gallery/show/{id}', 'GalleryController@getGallery');
+        Route::post('/gallery', 'GalleryController@store')->name('gallery.store');
         Route::put('/gallery/edit', 'GalleryController@update')->name('gallery.update');
         Route::delete('/gallery/delete', 'GalleryController@delete')->name('gallery.delete');
 
         //Event
         Route::get('/event', 'EventController@index');
+        Route::get('/event/show/{id}', 'EventController@getEvent');
         Route::get('/event/create', 'EventController@create')->name('event.create');
         Route::post('/event/create', 'EventController@store')->name('event.store');
         Route::put('/event/edit', 'EventController@update')->name('event.update');
