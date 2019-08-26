@@ -1,6 +1,7 @@
 @extends('layouts.landing')
 
 @section('style')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
 @endsection
 
 @section('content')
@@ -40,10 +41,35 @@
 </div>
 </section>
 <!--================Hero Banner Section end =================-->
+
+<section class="section-margin">
+  <div class="container">
+    <div class="section-intro mb-75px">
+      <h4 class="intro-title">Our Gallery</h4>
+      <h2>Enjoy every moment with Us!</h2>
+    </div>
+
+    <hr class="mt-2 mb-5">
+
+    <div class="row text-center text-lg-left justify-content-md-center justify-content-center">
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="{{ asset('img/iris/banner-2.jpg') }}" class="d-block mb-4 h-100" data-toggle="lightbox" data-gallery="example-gallery" data-title="hehe" data-footer="A custom footer text">
+          <img class="img-fluid img-thumbnail" src="{{ asset('img/iris/banner-2.jpg') }}" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 @endsection
 
 @section('script')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script>
   $('.nav-gallery').addClass("active");
+
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
 </script>
 @endsection
