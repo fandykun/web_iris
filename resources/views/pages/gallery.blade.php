@@ -54,7 +54,7 @@
     <div class="row text-center text-lg-left justify-content-md-center justify-content-center">
       @foreach($galleries as $gallery)
       <div class="col-lg-4 col-md-6 col-12">
-        <a href="{{ asset('public/gallery/'.$gallery->image) }}" class="d-block mb-4 h-100" data-toggle="lightbox" data-gallery="example-gallery" data-title="{{ $gallery->title }}" data-footer="{{ $gallery->description }}">
+        <a href="{{ asset('storage/gallery/'.$gallery->image) }}" class="d-block mb-4 h-100" data-toggle="lightbox" data-gallery="example-gallery" data-title="{{ $gallery->title }}" data-footer="{{ $gallery->description }}">
           <img class="img-fluid img-thumbnail" src="{{ asset('storage/gallery/'.$gallery->image) }}" alt="">
         </a>
       </div>
