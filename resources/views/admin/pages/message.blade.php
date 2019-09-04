@@ -7,7 +7,6 @@
         <a href="{{ '/admin' }}">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">Members</li>
-        <button type="button" class="btn btn-success float-right ml-auto">Create</button>
     </ol>
 
     <!-- DataTables Example -->

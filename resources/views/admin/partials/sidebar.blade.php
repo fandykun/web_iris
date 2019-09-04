@@ -31,4 +31,9 @@
             <i class="fas fa-fw fa-images"></i>
             <span>Sliders</span></a>
     </li>
+    <li class="nav-item" id="nav-slider">
+        <a class="nav-link" href="{{ '/admin/oprec' }}">
+            <i class="fas fa-fw fa-user"></i>
+            <span>Oprec</span></a>
+    </li>
 </ul>

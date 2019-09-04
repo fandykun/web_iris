@@ -19,10 +19,12 @@ Route::get('/team', 'PagesController@getTeamPage');
 Route::get('/gallery', 'PagesController@getGalleryPage');
 Route::get('/achievement', 'PagesController@getAchievementPage');
 Route::get('/contact', 'PagesController@getContactPage');
+Route::get('/oprec', 'PagesController@getOprecPage');
 
 Route::get('/qualification/robocup-2019', 'PagesController@getRobocup2019Page');
 
 Route::post('/contact', 'MessageController@store')->name('message.store');
+Route::post('/oprec', 'OprecController@store')->name('oprec.store');
 
 Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -44,6 +46,8 @@ Route::prefix('/admin')->group(function () {
         Route::get('/message/create', 'MessageController@create')->name('message.create');
         Route::put('/message/edit', 'MessageController@update')->name('message.update');
         Route::delete('/message/delete', 'MessageController@delete')->name('message.delete');
+
+        Route::get('/oprec', 'OprecController@index');
 
         //Gallery
         Route::get('/gallery', 'GalleryController@index');

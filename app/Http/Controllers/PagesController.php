@@ -31,6 +31,11 @@ class PagesController extends Controller
         return view('pages.achievement');
     }
 
+    public function getOprecPage()
+    {
+        return view('pages.oprec');
+    }
+
     public function getContactPage()
     {
         return view('pages.contact');
