@@ -139,7 +139,7 @@
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
               <h3><a>Phone number</a></h3>
-              <p>+62857-4665-8456 </p>
+              <p>+62 822-3010-4565 </p>
             </div>
           </div>
           <div class="media contact-info">

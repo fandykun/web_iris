@@ -42,6 +42,7 @@ class OprecController extends Controller
             'name' => 'bail|required|max:126',
             'NRP' => 'bail|required|digits:14',
             'division' => 'bail|required|max:126',
+            'department' => 'bail|required|max:126',
             'essay_general' => 'bail|required|file|mimes:pdf|max:1024',
             'essay_division' => 'bail|required|file|mimes:pdf|max:1024',
             'CV' => 'bail|required|file|mimes:pdf|max:1024',
@@ -50,8 +51,10 @@ class OprecController extends Controller
         if ($validator->fails()) {
             return redirect()->back()->with('error', 'Whoops, something error!');
         }
+
         if ($request->hasFile('essay_general')) {
             $fileEsssayGeneral = $request->file('essay_general')->getClientOriginalName();
+            $fileEsssayGeneral = pathinfo($fileEsssayGeneral, PATHINFO_FILENAME);
             $fileEsssayGeneral = $fileEsssayGeneral . '_' . time() . '.pdf';
             $request->file('essay_general')->storeAs('public/oprec', $fileEsssayGeneral);
         } else
@@ -59,6 +62,7 @@ class OprecController extends Controller
 
        if ($request->hasFile('essay_division')) {
             $fileEssayDivision = $request->file('essay_division')->getClientOriginalName();
+            $fileEssayDivision = pathinfo($fileEssayDivision, PATHINFO_FILENAME);
             $fileEssayDivision = $fileEssayDivision . '_' . time() . '.pdf';
             $request->file('essay_division')->storeAs('public/oprec', $fileEssayDivision);
         } else
@@ -66,6 +70,7 @@ class OprecController extends Controller
 
        if ($request->hasFile('CV')) {
             $fileCV = $request->file('CV')->getClientOriginalName();
+            $fileCV = pathinfo($fileCV, PATHINFO_FILENAME);
             $fileCV = $fileCV . '_' . time() . '.pdf';
             $request->file('CV')->storeAs('public/oprec', $fileCV);
         } else
@@ -73,6 +78,7 @@ class OprecController extends Controller
         
        if ($request->hasFile('KTM')) {
             $fileKTM = $request->file('KTM')->getClientOriginalName();
+            $fileKTM = pathinfo($fileKTM, PATHINFO_FILENAME);
             $fileKTM = $fileKTM . '_' . time() . '.pdf';
             $request->file('KTM')->storeAs('public/oprec', $fileKTM);
         } else

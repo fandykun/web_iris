@@ -4,7 +4,16 @@
     $igJsonLink = 'https://api.instagram.com/v1/users/self/media/recent/?';
     $igJsonLink.= 'access_token='. $igToken . '&count='.$igCount;
 
-    $igJson = file_get_contents($igJsonLink);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_URL, $igJsonLink);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);       
+
+    $igJson = curl_exec($ch);
+    curl_close($ch);
+
     $feed = json_decode($igJson, true, 512, JSON_BIGINT_AS_STRING);
 @endphp
 
@@ -17,7 +26,7 @@
                 <ul>
                     <li>Laboratorium Workshop, Lantai II, Pusat Robotika ITS</li>
                     <li>Jl. Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111</li>
-                    <li>+62857-4665-8456</li>
+                    <li>+62 822-3010-4565</li>
                     <li><a href="mailto:iris.krsbi@gmail.com">iris.krsbi@gmail.com</a></li>
                 </ul>
             </div>
