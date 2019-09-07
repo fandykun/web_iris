@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IRIS-ITS Robotics Team</title>
-    <link rel="icon" type="image/png" href="{{ asset('/iris/logo.png') }}" />
+    <link rel="icon" href="{{ asset('favicon.ico?v=2') }}" />
 
     <link rel="stylesheet" href="{{ asset('sneaky/vendors/bootstrap/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('sneaky/vendors/themify-icons/themify-icons.css') }}">
@@ -19,11 +19,13 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146577963-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-146577963-1');
+      var host = window.location.hostname;
+      if("localhost" != host) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-146577963-1');
+      }
     </script>
     @yield('style')
 </head>

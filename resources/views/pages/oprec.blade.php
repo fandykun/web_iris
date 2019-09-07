@@ -92,7 +92,7 @@
                         <small>PDF Max. Size: 1 MB (format: NRP_EssayGeneral)</small>
                         <input name="essay_general" class="form-control-file" id="essay_general" type="file" required/>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" id="essay_division">
                         <h5>Division Essay</h5>
                         <small>PDF Max. Size: 1 MB (format: NRP_EssayDivision)</small>
                         <input name="essay_division" class="form-control-file" id="essay_division" type="file" required/>
@@ -115,12 +115,24 @@
 
 <script>
   $('.nav-oprec').addClass("active");
+
+  $(function() {
+    $('#division').on('change', function() {
+      if(this.value == 'Official Division') {
+        $('#essay_division').hide();
+      }
+      else {
+        $('#essay_division').show();
+      }
+    });
+  });
+
   $(document).on('click', '.confirm', function() {
     if( ($('#name').val() == '') || ($('#NRP').val() == '') || ($('#department').val() == '') ||
         ($('#CV').get(0).files.length == 0) || ($('#KTM').get(0).files.length == 0) ||
-        ($('#essay_general').get(0).files.length == 0) || ($('#essay_division').get(0).files.length == 0) ) {
+        ($('#essay_general').get(0).files.length == 0) ) {
       bootbox.alert({
-        message: "Please fulfill your data/message!",
+        message: "Please fulfill your data!",
         centerVertical: 'True',
         size: 'small'
       });

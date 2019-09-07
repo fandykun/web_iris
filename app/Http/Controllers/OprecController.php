@@ -44,14 +44,13 @@ class OprecController extends Controller
             'division' => 'bail|required|max:126',
             'department' => 'bail|required|max:126',
             'essay_general' => 'bail|required|file|mimes:pdf|max:1024',
-            'essay_division' => 'bail|required|file|mimes:pdf|max:1024',
+            'essay_division' => 'bail|file|mimes:pdf|max:1024',
             'CV' => 'bail|required|file|mimes:pdf|max:1024',
             'KTM' => 'bail|required|file|mimes:pdf|max:1024'
         ]);
         if ($validator->fails()) {
             return redirect()->back()->with('error', 'Whoops, something error!');
         }
-
         if ($request->hasFile('essay_general')) {
             $fileEsssayGeneral = $request->file('essay_general')->getClientOriginalName();
             $fileEsssayGeneral = pathinfo($fileEsssayGeneral, PATHINFO_FILENAME);
@@ -59,15 +58,13 @@ class OprecController extends Controller
             $request->file('essay_general')->storeAs('public/oprec', $fileEsssayGeneral);
         } else
             return redirect()->back()->with('error', 'Whoops, something error!');
-
        if ($request->hasFile('essay_division')) {
             $fileEssayDivision = $request->file('essay_division')->getClientOriginalName();
             $fileEssayDivision = pathinfo($fileEssayDivision, PATHINFO_FILENAME);
             $fileEssayDivision = $fileEssayDivision . '_' . time() . '.pdf';
             $request->file('essay_division')->storeAs('public/oprec', $fileEssayDivision);
-        } else
+        } else if($request->division != 'Official Division')
             return redirect()->back()->with('error', 'Whoops, something error!');
-
        if ($request->hasFile('CV')) {
             $fileCV = $request->file('CV')->getClientOriginalName();
             $fileCV = pathinfo($fileCV, PATHINFO_FILENAME);
@@ -75,7 +72,6 @@ class OprecController extends Controller
             $request->file('CV')->storeAs('public/oprec', $fileCV);
         } else
             return redirect()->back()->with('error', 'Whoops, something error!');
-        
        if ($request->hasFile('KTM')) {
             $fileKTM = $request->file('KTM')->getClientOriginalName();
             $fileKTM = pathinfo($fileKTM, PATHINFO_FILENAME);
@@ -91,7 +87,10 @@ class OprecController extends Controller
             $oprec->department = $request->department;
             $oprec->division = $request->division;
             $oprec->essay_general = $fileEsssayGeneral;
-            $oprec->essay_division = $fileEssayDivision;
+            if($request->division != 'Official Division')
+                $oprec->essay_division = $fileEssayDivision;
+            else
+                $oprec->essay_division = $fileEsssayGeneral;
             $oprec->CV = $fileCV;
             $oprec->KTM = $fileKTM;
             $oprec->save();
