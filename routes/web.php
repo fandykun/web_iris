@@ -22,6 +22,7 @@ Route::get('/contact', 'PagesController@getContactPage');
 Route::get('/oprec', 'PagesController@getOprecPage');
 
 Route::get('/qualification/robocup-2019', 'PagesController@getRobocup2019Page');
+Route::get('/qualification/robocup-2020', 'PagesController@getRobocup2020Page');
 
 Route::post('/contact', 'MessageController@store')->name('message.store');
 Route::post('/oprec', 'OprecController@store')->name('oprec.store');

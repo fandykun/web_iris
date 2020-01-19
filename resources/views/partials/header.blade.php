@@ -21,6 +21,7 @@
                             aria-expanded="false">Qualification</a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2019'}}">Robocup 2019</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ '/qualification/robocup-2020'}}">Robocup 2020</a></li>
                         </ul>
                     </li>
                         <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a>

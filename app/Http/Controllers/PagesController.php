@@ -45,4 +45,9 @@ class PagesController extends Controller
     {
         return view('pages.qualification.robocup-2019');
     }
+
+    public function getRobocup2020Page()
+    {
+        return view('pages.qualification.robocup-2020');
+    }
 }
