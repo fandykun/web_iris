@@ -128,6 +128,21 @@
               </div>
             </div>
           </div>
+
+          <div class="timeline">
+            <div class="timeline-content">
+              <div class="timeline-icon">
+                <i class="fa fa-plane"></i>
+              </div>
+              <div class="inner-content">
+                <h3 class="title">RoboCup Middle-Size League 2019</h3>
+                <p class="description">
+                    <strong>Fifth Place</strong> Middle-Size League<br>
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

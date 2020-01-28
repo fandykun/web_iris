@@ -91,7 +91,7 @@ table {
     </div>
 
     <div class="section-intro mb-3px">
-      <h4 class="intro-title">Papers in Recent 3 Years</h4>
+      <h4 class="intro-title">Papers in Recent 4 Years</h4>
     </div>
     <div class="content mb-75px">
       <ul>
@@ -99,6 +99,8 @@ table {
           <br><a href="{{ asset('document/Artificial _Neural_Network_Untuk_Pengukuran _Posisi_Bola_Menggunakan_Kamera _Omnidireksional_Pada_Robot_Sepak_Bola_Beroda.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Penggunaan Kamera Global untuk Menentukan Posisi Robot pada Lapangan. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2018, Universitas Muhammadiyah Yogyakarta.
           <br><a href="{{ asset('document/Penggunaan_Kamera_Global_untuk_Menentukan_Posisi_Robot_pada_Lapangan.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
+        <li>Sistem Pengenalan Suara untuk Perintah pada Robot Sepak Bola Beroda. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2019, Universitas Dian Nuswantoro Semarang.
+          <br><a href="{{ asset('Sistem_Pengenalan_Suara_untuk_Perintah_pada_Robot_Sepak_Bola_Beroda.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Dikairono, R., Rachman, A. A., Setiawardhana, Sardjono, T. A., & Purwanto, D. (2017). Motion Planning Simulator for Holonomic Robot Soccer Platform. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
           <br><a href="{{ asset('document/Motion_Planning_Simulator_for_Holomic_Robot_Soccer_Platform.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Setiawardhana, Dikariono, R., Sardjono, T. A., & Purwanto, D. (2017). Visual Ball Tracking and Prediction with Unique Segmented Area on Soccer Robot. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
@@ -110,9 +112,9 @@ table {
       <h4 class="intro-title">Qualification Video</h4>
     </div>
     <div class="content mb-75px">
-      <p>This video shows all the basic abilities of our robots.</p>
+      <!-- <p>This video shows all the basic abilities of our robots.</p> -->
       <div class="embed-responsive embed-responsive-16by9 col-sm-8 offset-md-2 shadow">
-          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/kKfPtkb797g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/eVzmdgtdG2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
@@ -172,7 +174,7 @@ table {
               <td>00:c2:c6:f1:8c:04</td>
             </tr>
             <tr>
-              <td>Robot 4</td>
+              <td>Robot 5</td>
               <td>00:c2:c6:fa:0e:9c</td>
             </tr>
           </tbody>

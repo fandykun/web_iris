@@ -1,6 +1,6 @@
 /*
 Created by  : Fandy Kuncoro Adianto
-Last Update : 05-09-2019
+Last Update : 25-6-2019
 */
 .box {
     position: fixed;
@@ -177,6 +177,7 @@ Last Update : 05-09-2019
     background: linear-gradient(to right,#E81C7E,#EE5167);
 }
 .main-timeline .timeline:nth-child(4n+3) .title{ color: #E81C7E; }
+
 .main-timeline .timeline:nth-child(4n+4) .timeline-icon{
     background: linear-gradient(to bottom,#EE5167,#FA964A);
 }
@@ -186,13 +187,23 @@ Last Update : 05-09-2019
 .main-timeline .timeline:nth-child(4n+4) .title{ color: #EE5167; }
 
 .main-timeline .timeline:nth-child(4n+5) .timeline-icon{
-    background: linear-gradient(to bottom,#FA964A,#edde5d);
+    background: linear-gradient(to bottom,#FA964A,#f9ca24);
 }
 
 .main-timeline .timeline:nth-child(4n+5) .timeline-content{
-    background: linear-gradient(to right,#FA964A,#edde5d);
+    background: linear-gradient(to right,#FA964A,#f9ca24);
 }
 .main-timeline .timeline:nth-child(4n+5) .title{ color: #FA964A; }
+
+.main-timeline .timeline:nth-child(4n+6) .timeline-icon{
+    background: linear-gradient(to bottom,#f9ca24,#7bed9f);
+}
+
+.main-timeline .timeline:nth-child(4n+6) .timeline-content{
+    background: linear-gradient(to right,#7bed9f,#f9ca24);
+}
+.main-timeline .timeline:nth-child(4n+6) .title{ color: #f9ca24; }
+
 
 @media screen and (max-width:576px){
     .main-timeline .timeline-content{ padding: 90px 20px 20px 0; }
