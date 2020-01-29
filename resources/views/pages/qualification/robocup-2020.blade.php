@@ -73,7 +73,7 @@ table {
       </div>
     </div>
     <ul class="social-icons d-none d-lg-block">
-      <li><a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a></li>
+      <li><a href="mailto:iris@its.ac.id"><i class="ti-email"></i></a></li>
       <li><a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a></li>
       <li><a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a></li>
     </ul>
@@ -87,7 +87,7 @@ table {
       <h4 class="intro-title">Team Description Paper</h4>
     </div>
     <div class="content mb-75px">
-      <p>The team description paper can be downloaded from <a href="{{ asset('document/Team_Description_Paper_IRIS_2019.pdf') }}">here.</a></p>
+      <p>The team description paper can be downloaded from <a href="{{ asset('document/qualification_2020/Team_Description_Paper_IRIS_2020.pdf') }}">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">
@@ -100,7 +100,7 @@ table {
         <li>Penggunaan Kamera Global untuk Menentukan Posisi Robot pada Lapangan. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2018, Universitas Muhammadiyah Yogyakarta.
           <br><a href="{{ asset('document/Penggunaan_Kamera_Global_untuk_Menentukan_Posisi_Robot_pada_Lapangan.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Sistem Pengenalan Suara untuk Perintah pada Robot Sepak Bola Beroda. Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2019, Universitas Dian Nuswantoro Semarang.
-          <br><a href="{{ asset('Sistem_Pengenalan_Suara_untuk_Perintah_pada_Robot_Sepak_Bola_Beroda.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
+          <br><a href="{{ asset('document/Sistem_Pengenalan_Suara_untuk_Perintah_pada_Robot_Sepak_Bola_Beroda.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Dikairono, R., Rachman, A. A., Setiawardhana, Sardjono, T. A., & Purwanto, D. (2017). Motion Planning Simulator for Holonomic Robot Soccer Platform. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
           <br><a href="{{ asset('document/Motion_Planning_Simulator_for_Holomic_Robot_Soccer_Platform.pdf') }}" class="btn btn-light btn-sm" target="_blank"><i class="fa fa-download"></i> Download</a></li>
         <li>Setiawardhana, Dikariono, R., Sardjono, T. A., & Purwanto, D. (2017). Visual Ball Tracking and Prediction with Unique Segmented Area on Soccer Robot. 2017 International Seminar on Intelligent Technology and Its Applications (ISITIA).
@@ -131,7 +131,7 @@ table {
     </div>
     <div class="content mb-75px">
       <p>The mechanical and electrical design and detailed software flowchart of IRIS team can be found on the following links 
-        <a href="{{ asset('document/Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf') }}" target="_blank">here.</a></p>
+        <a href="{{ asset('document/qualification_2020/Mechanical_and_Electrical_Description_with_Software_Flow_Chart_2020.pdf') }}" target="_blank">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">
@@ -197,24 +197,20 @@ table {
               <td>f4:8c:50:6f:b9:68</td>
             </tr>
             <tr>
-              <td>Revo</td>
-              <td>f0:03:8c:09:2c:ff</td>
+              <td>Fandy</td>
+              <td>48:89:E7:C3:1C:BB</td>
             </tr>
             <tr>
-              <td>Dhiaul</td>
-              <td>5c:93:a2:a6:b9:91</td>
+              <td>Ayik</td>
+              <td>64:5D:86:E8:DF:41</td>
             </tr>
             <tr>
-              <td>Pandu</td>
-              <td>ac:b5:7d:31:7a:6a</td>
+              <td>Habib</td>
+              <td>24:FD:52:46:1D:6A</td>
             </tr>
             <tr>
-              <td>Azhar</td>
-              <td>28:c2:dd:c8:6b:45</td>
-            </tr>
-            <tr>
-              <td>Dwiki</td>
-              <td>74:c6:3b:c9:bd:05</td>
+              <td colspan="2" class="text-center font-weight-bold">Will be updated soon.</td>
+              <!-- <td></td> -->
             </tr>
           </tbody>
         </table>

@@ -25,7 +25,7 @@
                         </ul>
                     </li>
                         <li class="nav-item nav-contact"><a class="nav-link" href=" {{ '/contact' }} ">Contact</a>
-                        <li class="nav-item nav-oprec"><a class="nav-link" href=" {{ '/oprec' }} ">Oprec</a>
+                        <!-- <li class="nav-item nav-oprec"><a class="nav-link" href=" {{ '/oprec' }} ">Oprec</a> -->
                     </ul>
                 </div>
             </div>

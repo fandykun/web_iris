@@ -87,7 +87,7 @@ table {
       <h4 class="intro-title">Team Description Paper</h4>
     </div>
     <div class="content mb-75px">
-      <p>The team description paper can be downloaded from <a href="{{ asset('document/Team_Description_Paper_IRIS_2019.pdf') }}">here.</a></p>
+      <p>The team description paper can be downloaded from <a href="{{ asset('document/qualification_2019/Team_Description_Paper_IRIS_2019.pdf') }}">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">
@@ -129,7 +129,7 @@ table {
     </div>
     <div class="content mb-75px">
       <p>The mechanical and electrical design and detailed software flowchart of IRIS team can be found on the following links 
-        <a href="{{ asset('document/Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf') }}" target="_blank">here.</a></p>
+        <a href="{{ asset('document/qualification_2019/Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf') }}" target="_blank">here.</a></p>
     </div>
 
     <div class="section-intro mb-3px">

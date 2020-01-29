@@ -42,7 +42,7 @@
       </div>
     </div>
     <ul class="social-icons d-none d-lg-block">
-      <li><a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a></li>
+      <li><a href="mailto:iris@its.ac.id"><i class="ti-email"></i></a></li>
       <li><a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a></li>
       <li><a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a></li>
     </ul>

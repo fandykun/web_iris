@@ -27,7 +27,7 @@
                     <li>Laboratorium Workshop, Lantai II, Pusat Robotika ITS</li>
                     <li>Jl. Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111</li>
                     <li>+62 822-3010-4565</li>
-                    <li><a href="mailto:iris.krsbi@gmail.com">iris.krsbi@gmail.com</a></li>
+                    <li><a href="mailto:iris@its.ac.id">iris@its.ac.id</a></li>
                 </ul>
             </div>
             <div class="col-xl-6 col-sm-12 mb-12 mb-xl-0 single-footer-widget">
@@ -59,7 +59,7 @@
                     document.write(new Date().getFullYear());
                 </script> IRIS ITS</p>
             <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                <a href="mailto:iris.krsbi@gmail.com"><i class="ti-email"></i></a>
+                <a href="mailto:iris@its.ac.id"><i class="ti-email"></i></a>
                 <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw" target="_blank"><i class="ti-youtube"></i></a>
                 <a href="https://www.instagram.com/iris.itsrobotic" target="_blank"><i class="ti-instagram"></i></a>
             </div>
